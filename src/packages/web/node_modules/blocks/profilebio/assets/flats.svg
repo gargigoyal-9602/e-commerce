@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="flats" width="164.897" height="216.107" viewBox="0 0 164.897 216.107">
+    <defs>
+        <linearGradient id="linear-gradient" x1=".044" x2="1.005" y1=".043" y2=".995" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#d8e4f0"/>
+            <stop offset="1" stop-color="#becfe0"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-2" x1=".055" x2=".973" y1=".054" y2=".685" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#cddbe7"/>
+            <stop offset="1" stop-color="#90a5ba"/>
+        </linearGradient>
+        <style>
+            .cls-3{opacity:.8;fill:url(#linear-gradient-2)}
+        </style>
+    </defs>
+    <path id="Fill_1" fill="url(#linear-gradient)" d="M0 0v216.107h164.9V0z" opacity="0.8"/>
+    <path id="Fill_8" fill="#a4b5c8" d="M0 83.473h48.65V0H0z" opacity="0.7" transform="translate(81.936 132.635)"/>
+    <path id="Fill_2" d="M0 33.286h25.6V0H0z" class="cls-3" transform="translate(22.021 22.021)"/>
+    <path id="Fill_3" d="M0 33.286h25.6V0H0z" class="cls-3" transform="translate(69.646 22.021)"/>
+    <path id="Fill_4" d="M0 33.286h25.6V0H0z" class="cls-3" transform="translate(117.272 22.021)"/>
+    <path id="Fill_5" d="M0 33.286h25.6V0H0z" class="cls-3" transform="translate(22.021 77.328)"/>
+    <path id="Fill_6" d="M0 33.286h25.6V0H0z" class="cls-3" transform="translate(69.646 77.328)"/>
+    <path id="Fill_7" d="M0 33.286h25.6V0H0z" class="cls-3" transform="translate(117.272 77.328)"/>
+    <path id="Fill_9" d="M0 33.287h25.6V0H0z" class="cls-3" transform="translate(22.021 132.635)"/>
+</svg>

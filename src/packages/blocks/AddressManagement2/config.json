@@ -1,0 +1,65 @@
+{
+  "id": "AddressManagement2",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/AddressManagement2",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "AddressManagement2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "AddressManagement2": {
+        "file": "AddressManagement2.tsx",
+        "extends": "AddressManagement2Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "AddressManagement2Controller",
+            "path": "./AddressManagement2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./AddressManagement2Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "AddressManagement2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "AddressManagement2Block": {
+        "file": "AddressManagement2Block.tsx",
+        "extends": "AddressManagement2Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "AddressManagement2Controller",
+            "path": "./AddressManagement2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./AddressManagement2Controller"
+          }
+        ]
+      }
+    }
+  }
+}

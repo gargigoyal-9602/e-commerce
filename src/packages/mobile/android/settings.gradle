@@ -1,0 +1,24 @@
+rootProject.name = 'Freemium87482'
+apply from: file("../../../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings, "../../..")
+include ':app', ':oppwa.mobile-2.56.0'
+
+include ':react-native-linear-gradient'
+project(':react-native-linear-gradient').projectDir = new File(rootProject.projectDir, '../../../node_modules/react-native-linear-gradient/android')
+
+include ':react-native-fbsdk'
+project(':react-native-fbsdk').projectDir = new File(rootProject.projectDir, '../../../node_modules/react-native-fbsdk/android')
+
+include ':react-native-webview'
+project(':react-native-webview').projectDir = new File(rootProject.projectDir, '../../../node_modules/react-native-webview/android')
+
+include ':react-native-linear-gradient'
+project(':react-native-linear-gradient').projectDir = new File(rootProject.projectDir, '../../../node_modules/react-native-linear-gradient/android')
+
+include ':react-native-push-notification'
+project(':react-native-push-notification').projectDir = new File(rootProject.projectDir, '../../../node_modules/react-native-push-notification/android')
+
+include ':react-native-google-signin', ':app'
+project(':react-native-google-signin').projectDir = new File(rootProject.projectDir, '../../../node_modules/@react-native-community/google-signin/android')
+
+include ':tipsi-stripe'
+project(':tipsi-stripe').projectDir = new File(rootProject.projectDir, '../../../node_modules/tipsi-stripe/android')

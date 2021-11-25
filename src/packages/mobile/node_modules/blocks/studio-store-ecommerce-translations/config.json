@@ -1,0 +1,23 @@
+{
+  "id": "studio-store-ecommerce-translations",
+  "verion": "0.0.1",
+  "status": "StudioStoreEcommerce",
+  "path": "./packages/blocks/translations",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {}
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {}
+  }
+}

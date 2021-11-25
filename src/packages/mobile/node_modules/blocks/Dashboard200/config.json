@@ -1,0 +1,65 @@
+{
+  "id": "Dashboard200",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/Dashboard200",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Dashboard200"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Dashboard200": {
+        "file": "Dashboard200.tsx",
+        "extends": "Dashboard200Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "Dashboard200Controller",
+            "path": "./Dashboard200Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./Dashboard200Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Dashboard200"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Dashboard200Block": {
+        "file": "Dashboard200Block.tsx",
+        "extends": "Dashboard200Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "Dashboard200Controller",
+            "path": "./Dashboard200Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./Dashboard200Controller"
+          }
+        ]
+      }
+    }
+  }
+}

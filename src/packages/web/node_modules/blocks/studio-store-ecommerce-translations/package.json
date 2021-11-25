@@ -1,0 +1,11 @@
+{
+  "name": "studio-store-ecommerce-translations",
+  "version": "1.0.0",
+  "repository": "https://gitlab.builder.ai/builder/builder-bx/Bx/blocks/react-native/development/builder-studio-store/e-commerce/blocks/translations.git",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo Translations Block no code",
+    "testBackend": "echo Translations Block no code",
+    "lint": "echo Translations Block no code"
+  }
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+    <file path="/Users/joe/webfreemium87482-350702-react-native/src/packages/blocks/forgot-password/__tests__/step-definitions/forgotpassword.steps.tsx">
+        <testCase name="forgotpassword User navigates to forgotpassword" duration="570"/>
+        <testCase name="forgotpassword User navigates to newpassword" duration="56"/>
+    </file>
+</testExecutions>

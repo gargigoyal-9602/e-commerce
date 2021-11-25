@@ -1,0 +1,65 @@
+{
+  "id": "PhoneLogin200",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/PhoneLogin200",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "PhoneLogin200"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "PhoneLogin200": {
+        "file": "PhoneLogin200.tsx",
+        "extends": "PhoneLogin200Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "PhoneLogin200Controller",
+            "path": "./PhoneLogin200Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./PhoneLogin200Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "PhoneLogin200"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "PhoneLogin200Block": {
+        "file": "PhoneLogin200Block.tsx",
+        "extends": "PhoneLogin200Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "PhoneLogin200Controller",
+            "path": "./PhoneLogin200Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./PhoneLogin200Controller"
+          }
+        ]
+      }
+    }
+  }
+}

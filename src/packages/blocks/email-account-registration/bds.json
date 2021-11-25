@@ -1,0 +1,14 @@
+{
+  "bds": {
+    "name": "Email Account Registration",
+    "id": "email-account-registration",
+    "platform": [
+      "desktop"
+    ],
+    "author": "CMT",
+    "summary": null,
+    "license": "BSD",
+    "version": "1.0.0",
+    "pages": []
+  }
+}

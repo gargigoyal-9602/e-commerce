@@ -1,0 +1,308 @@
+declare const R: {
+    colors: {
+        darkishBlue: string;
+        pastelRed: string;
+        charcoalGrey: string;
+        darkGreyBlue: string;
+        greenButton: string;
+        white: string;
+        black: string;
+        borderduckEggBlue: string;
+        paleGrey: string;
+        paleGreyTwo: string;
+        LightlightNavy: string;
+        boderdarkishBlueTwo: string;
+        lightBlueGrey: string;
+        coolGrey: string;
+        darkishBlueTwo: string;
+        coolGreyTwo: string;
+        whiteTwo: string;
+        darkBlueGrey: string;
+    };
+    fonts: {
+        GTWalsheimProBold: string;
+        GTWalsheimProLight: string;
+        GTWalsheimProMedium: string;
+        GTWalsheimProRegular: string;
+    };
+    images: {
+        home_active: any;
+        search_inactive: any;
+        menu_inactive: any;
+        heart_inactive: any;
+        account_inactive: any;
+        splash: any;
+        logo: any;
+        splashimage: any;
+        campass: any;
+        bell: any;
+        apple: any;
+        facebook: any;
+        google: any;
+        account: any;
+        phoneIcon: any;
+        email: any;
+        key: any;
+        eye: any;
+        eyeClosed: any;
+        cart_black: any;
+        notification: any;
+        cart: any;
+        cartHasProduct: any;
+        backArrow: any;
+        discount: any;
+        medicineProduct: any;
+        undo: any;
+        prescription: any;
+        next: any;
+        downArrow: any;
+        gallery: any;
+        attachment: any;
+        file: any;
+        phone: any;
+        drugs: any;
+        group: any;
+        cancel: any;
+        add: any;
+        cancelMedicine: any;
+        search: any;
+        medicine: any;
+        googlePlus: any;
+        faceBook: any;
+        cat1: any;
+        cat2: any;
+        cat3: any;
+        bottle: any;
+        cloth: any;
+        illustration: any;
+        heartwishlist: any;
+        redheart: any;
+        emptyBuilding: any;
+        locationPin: any;
+        camera: any;
+        emptyCart: any;
+        wishList: any;
+        myOrder: any;
+        address: any;
+        creditCard: any;
+        accounts: any;
+        password: any;
+        helpCenter: any;
+        logout: any;
+        notifications: any;
+        filter: any;
+        short: any;
+        fire: any;
+        hightolow: any;
+        new: any;
+        checkbox: any;
+        uncheck: any;
+        compasslocation: any;
+    };
+    signUpImages: {
+        imgEmailIcon: any;
+        imgPasswordIcon: any;
+        imgPasswordShowIcon: any;
+        imgPasswordHideIcon: any;
+        imgLoginSuccess: any;
+        imgFullName: any;
+        imgPhoneIcon: any;
+        crossIcon: any;
+        facebook: any;
+        google: any;
+        apple: any;
+    };
+    dimensions: {
+        width: number;
+        height: number;
+    };
+    loginImages: {
+        imgEmailIcon: any;
+        imgPasswordIcon: any;
+        imgPasswordShowIcon: any;
+        imgPasswordHideIcon: any;
+        imgLoginSuccess: any;
+        crossIcon: any;
+        facebook: any;
+        google: any;
+        apple: any;
+    };
+    authImages: {
+        imgEmailIcon: any;
+        imgPasswordIcon: any;
+        imgPasswordShowIcon: any;
+        imgPasswordHideIcon: any;
+        imgLoginSuccess: any;
+        crossIcon: any;
+        backIcon: any;
+        notificationIcon: any;
+    };
+    catalogueImages: {
+        selectedsHeart: any;
+        unselectedHeart: any;
+        redHeart: any;
+        heartWishlist: any;
+        soldOutIcon: any;
+        stockTick: any;
+        backIcon: any;
+        cartBlack: any;
+        shareIcon: any;
+        search: any;
+        selectedStar: any;
+        unselectedStar: any;
+        cartBlackIcon: any;
+        lowerSelectedStar: any;
+        halfSelectedStar: any;
+        upperSelectedStar: any;
+    };
+    connectedAccountsImage: {
+        imgPasswordVisible: any;
+        imgPasswordInVisible: any;
+        crossIcon2: any;
+        googlePlus: any;
+        faceBook: any;
+        backIcon: any;
+    };
+    contactUsImage: {
+        backIcon: any;
+        BACK_ICON_WHITE: any;
+        cart: any;
+    };
+    categoriesSubcategoriesImage: {
+        imgPasswordVisible: any;
+        imgPasswordInVisible: any;
+        upArrow: any;
+        downArrow: any;
+        rightArrow: any;
+        cart: any;
+        backIcon: any;
+        notificationIcon: any;
+        checked: any;
+        unchecked: any;
+        Delete: any;
+    };
+    forgotPasswordImage: {
+        imgEmailIcon: any;
+        imgPasswordIcon: any;
+        imgPasswordShowIcon: any;
+        imgPasswordHideIcon: any;
+        imgLoginSuccess: any;
+        crossIcon: any;
+    };
+    helpCenterImage: {
+        backIcon: any;
+    };
+    interactiveFaqsImage: {
+        downArrow: any;
+        rightArrow: any;
+        backIcon: any;
+    };
+    locationImage: {
+        imgPasswordVisible: any;
+        imgPasswordInVisible: any;
+    };
+    liveChatImage: {
+        imgPasswordVisible: any;
+        imgPasswordInVisible: any;
+    };
+    notificationImage: {
+        imgPasswordVisible: any;
+        imgPasswordInVisible: any;
+        backIcon: any;
+        deleteIcon: any;
+        emptyNotificationImage: any;
+        notificationBell: any;
+    };
+    orderDetailViewImage: {
+        backIcon: any;
+        cart: any;
+        tickIcon: any;
+        dotIcon: any;
+        delivered: any;
+    };
+    orderManagementImage: {
+        emptyMyOrders: any;
+        backIcon: any;
+        cart: any;
+    };
+    orderSummaryImage: {
+        radioSelected: any;
+        radioUnselected: any;
+        backIcon: any;
+    };
+    otpInputAuthImage: {
+        email: any;
+        key: any;
+    };
+    paymentsImage: {
+        upArrow: any;
+        downArrow: any;
+    };
+    profileBioImage: {
+        imgPasswordVisible: any;
+        imgPasswordInVisible: any;
+        filterImage: any;
+        sortImage: any;
+        SELECTED_HEART: any;
+        UN_SELECTED_HEART: any;
+        CHECKED: any;
+        UNCHECKED: any;
+        Cart: any;
+        Notification: any;
+        faceBook: any;
+        googlePlus: any;
+        changePasswordIcon: any;
+        backIcon: any;
+        cameraIcon: any;
+        whiteCameraIcon: any;
+        crossIcon: any;
+        cameraIcons: any;
+        galleryIcon: any;
+        wishListIcon: any;
+        myOrdersIcon: any;
+        savedIcon: any;
+        connectedIcon: any;
+        helpIcon: any;
+        NotificationProfileIcon: any;
+        NotificationOnIcon: any;
+        NotificationOffIcon: any;
+        logoutIcon: any;
+        password: any;
+        upArrow: any;
+        downArrow: any;
+        rightArrow: any;
+        notificationIcon: any;
+        checked: any;
+        unchecked: any;
+        NOT_FOUND_ICON: any;
+    };
+    profileFaqImage: {
+        DOWN_ARROW: any;
+        RIGHT_ARROW: any;
+    };
+    pushNotificationImage: {
+        imgPasswordVisible: any;
+        imgPasswordInVisible: any;
+    };
+    searchImage: {
+        SEARCH_NO_RESULTS: any;
+    };
+    shoppingCartImage: {
+        backIcon: any;
+        notificationIcon: any;
+        checkboxSelected: any;
+        checkboxUnSelected: any;
+        blankAddress: any;
+        tickAddress: any;
+        cartEmpty: any;
+        couponTick: any;
+        BACK_ICON: any;
+    };
+    whishlistImage: {
+        NOT_FOUND_ICON: any;
+        SELECTED_HEART: any;
+        UN_SELECTED_HEART: any;
+        Cart: any;
+    };
+};
+export default R;

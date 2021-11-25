@@ -1,0 +1,2142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`filteritems User navigates to filteritems 1`] = `
+<SafeAreaView
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "flex": 1,
+    }
+  }
+>
+  <StatusBar
+    animated={false}
+    backgroundColor="#FFF"
+    barStyle="dark-content"
+    showHideTransition="fade"
+  />
+  <TopHeader
+    headerLeftIconName={
+      Object {
+        "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/header/backIcon.png",
+      }
+    }
+    headerLeftIconStyle={Object {}}
+    headerRightIcons={
+      Array [
+        Object {
+          "onPress": [Function],
+          "src": Object {
+            "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/Profile/notificationsIcon.png",
+          },
+          "style": Object {
+            "resizeMode": "contain",
+          },
+        },
+        Object {
+          "cartHasProductFlag": undefined,
+          "onPress": [Function],
+          "src": Object {
+            "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/Profile/cartBlack.png",
+          },
+          "style": Object {
+            "resizeMode": "contain",
+          },
+        },
+      ]
+    }
+    headerStyle={Object {}}
+    headerTitle=""
+    headerTitleStyle={Object {}}
+    navigation={
+      Object {
+        "addListener": [MockFunction],
+        "goBack": [MockFunction],
+        "navigate": [MockFunction],
+        "state": Object {
+          "params": Object {
+            "filterData": Array [],
+            "onPressFilter": [MockFunction],
+          },
+        },
+      }
+    }
+    onPressLeft={[Function]}
+  />
+  <ApplicationLoader
+    isFetching={true}
+  />
+  <CustomErrorModal
+    hideErrorModal={[Function]}
+    isShowError={false}
+    message=""
+    showModal={false}
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#ffffff",
+        "elevation": 2,
+        "flexDirection": "row",
+        "height": 40,
+        "shadowColor": "#000000",
+        "shadowOffset": Object {
+          "height": 0.5,
+          "width": 4,
+        },
+        "shadowOpacity": 0.1,
+        "shadowRadius": 2,
+      }
+    }
+  >
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "center",
+        }
+      }
+      testID="buttonSort"
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/Filter/sort.png",
+          }
+        }
+        style={
+          Object {
+            "alignSelf": "center",
+            "height": 30,
+            "resizeMode": "contain",
+            "width": 30,
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "#1809b8",
+            "fontFamily": "GTWalsheimPro-Medium",
+            "fontSize": 30,
+            "lineHeight": 36,
+            "marginLeft": 21,
+          }
+        }
+      >
+        Sort
+      </Text>
+    </TouchableOpacity>
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "center",
+        }
+      }
+      testID="buttonFilter"
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/Filter/filter.png",
+          }
+        }
+        style={
+          Object {
+            "alignSelf": "center",
+            "height": 30,
+            "resizeMode": "contain",
+            "width": 30,
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "#1809b8",
+            "fontFamily": "GTWalsheimPro-Medium",
+            "fontSize": 30,
+            "lineHeight": 36,
+            "marginLeft": 21,
+          }
+        }
+      >
+        Filter
+      </Text>
+    </TouchableOpacity>
+  </View>
+  <Component
+    animationType="slide"
+    hardwareAccelerated={false}
+    onRequestClose={[Function]}
+    transparent={true}
+    visible={false}
+  >
+    <TouchableOpacity
+      activeOpacity={1}
+      style={
+        Object {
+          "flex": 1,
+          "justifyContent": "flex-end",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignSelf": "flex-end",
+            "backgroundColor": "#ffffff",
+            "elevation": 2,
+            "height": 500,
+            "shadowColor": "#000000",
+            "shadowOffset": Object {
+              "height": 3,
+              "width": 4,
+            },
+            "shadowOpacity": 0.2,
+            "shadowRadius": 5,
+            "width": 750,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginTop": 24,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#3e454f",
+                "fontFamily": "GTWalsheimPro-Medium",
+                "fontSize": 36,
+                "lineHeight": 40,
+                "marginLeft": 48,
+              }
+            }
+          >
+            Sort by
+          </Text>
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            testID="buttonSortBy"
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/forgotPassword/cross.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 24,
+                  "marginRight": 60.6,
+                  "width": 24,
+                }
+              }
+            />
+          </TouchableOpacity>
+        </View>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginLeft": 53.2,
+              "marginTop": 22,
+            }
+          }
+          testID="buttonSortPriceLowToHigh"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/ProductDescription/dollarDown.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 30,
+                  "resizeMode": "contain",
+                  "width": 24,
+                }
+              }
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#3e454f",
+                  "fontFamily": "GTWalsheimPro-Regular",
+                  "fontSize": 34,
+                  "lineHeight": 38,
+                  "marginLeft": 18,
+                }
+              }
+            >
+              Price, Low to High
+            </Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginLeft": 53.2,
+              "marginTop": 22,
+            }
+          }
+          testID="buttonSortPriceHighToLow"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/ProductDescription/dollarDown.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 30,
+                  "resizeMode": "contain",
+                  "width": 24,
+                }
+              }
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#3e454f",
+                  "fontFamily": "GTWalsheimPro-Regular",
+                  "fontSize": 34,
+                  "lineHeight": 38,
+                  "marginLeft": 18,
+                }
+              }
+            >
+              Price, High to Low
+            </Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginLeft": 53.2,
+              "marginTop": 22,
+            }
+          }
+          testID="buttonSortNewestProducts"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/ProductDescription/newIcon.png",
+                }
+              }
+              style={Object {}}
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#3e454f",
+                  "fontFamily": "GTWalsheimPro-Regular",
+                  "fontSize": 34,
+                  "lineHeight": 38,
+                  "marginLeft": 18,
+                }
+              }
+            >
+              Newest Products
+            </Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginLeft": 53.2,
+              "marginTop": 22,
+            }
+          }
+          testID="buttonSortPopularity"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/ProductDescription/popularityIcon.png",
+                }
+              }
+              style={Object {}}
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#3e454f",
+                  "fontFamily": "GTWalsheimPro-Regular",
+                  "fontSize": 34,
+                  "lineHeight": 38,
+                  "marginLeft": 18,
+                }
+              }
+            >
+              Popularity
+            </Text>
+          </View>
+        </TouchableOpacity>
+      </View>
+    </TouchableOpacity>
+  </Component>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "marginLeft": 22,
+        "marginTop": 10,
+      }
+    }
+  >
+    <FlatList
+      data={Array []}
+      disableVirtualization={false}
+      extraData={
+        Object {
+          "cartLength": 0,
+          "cartProduct": null,
+          "customErrorMessage": "",
+          "customErrorModal": false,
+          "data": "",
+          "filterQueryParams": "",
+          "filterSelection": Array [
+            Object {
+              "isSelected": false,
+            },
+            Object {
+              "isSelected": false,
+            },
+            Object {
+              "isSelected": false,
+            },
+            Object {
+              "isSelected": false,
+            },
+          ],
+          "isFetching": true,
+          "isShowError": false,
+          "isSortByEnabled": false,
+          "lastFilterQuery": "",
+          "noProductFound": false,
+          "productList": Array [],
+          "screenName": "",
+          "showSortByModal": false,
+          "token": undefined,
+        }
+      }
+      horizontal={false}
+      initialNumToRender={10}
+      keyExtractor={[Function]}
+      maxToRenderPerBatch={10}
+      numColumns={2}
+      onEndReachedThreshold={0.01}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      updateCellsBatchingPeriod={50}
+      windowSize={21}
+    />
+  </View>
+</SafeAreaView>
+`;
+
+exports[`filteritems User navigates to filteritems 2`] = `
+<SafeAreaView
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "flex": 1,
+    }
+  }
+>
+  <StatusBar
+    animated={false}
+    backgroundColor="#FFF"
+    barStyle="dark-content"
+    showHideTransition="fade"
+  />
+  <TopHeader
+    headerLeftIconName={
+      Object {
+        "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/header/backIcon.png",
+      }
+    }
+    headerLeftIconStyle={Object {}}
+    headerRightIcons={
+      Array [
+        Object {
+          "onPress": [Function],
+          "src": Object {
+            "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/Profile/notificationsIcon.png",
+          },
+          "style": Object {
+            "resizeMode": "contain",
+          },
+        },
+        Object {
+          "cartHasProductFlag": undefined,
+          "onPress": [Function],
+          "src": Object {
+            "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/Profile/cartBlack.png",
+          },
+          "style": Object {
+            "resizeMode": "contain",
+          },
+        },
+      ]
+    }
+    headerStyle={Object {}}
+    headerTitle=""
+    headerTitleStyle={Object {}}
+    navigation={
+      Object {
+        "addListener": [MockFunction],
+        "goBack": [MockFunction],
+        "navigate": [MockFunction] {
+          "calls": Array [
+            Array [
+              "Filteroptions",
+              Object {
+                "filterData": Array [],
+                "onPressFilter": [Function],
+              },
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+        "state": Object {
+          "params": Object {
+            "filterData": Array [],
+            "onPressFilter": [MockFunction],
+          },
+        },
+      }
+    }
+    onPressLeft={[Function]}
+  />
+  <ApplicationLoader
+    isFetching={true}
+  />
+  <CustomErrorModal
+    hideErrorModal={[Function]}
+    isShowError={true}
+    showModal={true}
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#ffffff",
+        "elevation": 2,
+        "flexDirection": "row",
+        "height": 40,
+        "shadowColor": "#000000",
+        "shadowOffset": Object {
+          "height": 0.5,
+          "width": 4,
+        },
+        "shadowOpacity": 0.1,
+        "shadowRadius": 2,
+      }
+    }
+  >
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "center",
+        }
+      }
+      testID="buttonSort"
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/Filter/sort.png",
+          }
+        }
+        style={
+          Object {
+            "alignSelf": "center",
+            "height": 30,
+            "resizeMode": "contain",
+            "width": 30,
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "#1809b8",
+            "fontFamily": "GTWalsheimPro-Medium",
+            "fontSize": 30,
+            "lineHeight": 36,
+            "marginLeft": 21,
+          }
+        }
+      >
+        Sort
+      </Text>
+    </TouchableOpacity>
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "center",
+        }
+      }
+      testID="buttonFilter"
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/Filter/filter.png",
+          }
+        }
+        style={
+          Object {
+            "alignSelf": "center",
+            "height": 30,
+            "resizeMode": "contain",
+            "width": 30,
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "#1809b8",
+            "fontFamily": "GTWalsheimPro-Medium",
+            "fontSize": 30,
+            "lineHeight": 36,
+            "marginLeft": 21,
+          }
+        }
+      >
+        Filter
+      </Text>
+    </TouchableOpacity>
+  </View>
+  <Component
+    animationType="slide"
+    hardwareAccelerated={false}
+    onRequestClose={[Function]}
+    transparent={true}
+    visible={false}
+  >
+    <TouchableOpacity
+      activeOpacity={1}
+      style={
+        Object {
+          "flex": 1,
+          "justifyContent": "flex-end",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignSelf": "flex-end",
+            "backgroundColor": "#ffffff",
+            "elevation": 2,
+            "height": 500,
+            "shadowColor": "#000000",
+            "shadowOffset": Object {
+              "height": 3,
+              "width": 4,
+            },
+            "shadowOpacity": 0.2,
+            "shadowRadius": 5,
+            "width": 750,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginTop": 24,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#3e454f",
+                "fontFamily": "GTWalsheimPro-Medium",
+                "fontSize": 36,
+                "lineHeight": 40,
+                "marginLeft": 48,
+              }
+            }
+          >
+            Sort by
+          </Text>
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            testID="buttonSortBy"
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/forgotPassword/cross.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 24,
+                  "marginRight": 60.6,
+                  "width": 24,
+                }
+              }
+            />
+          </TouchableOpacity>
+        </View>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginLeft": 53.2,
+              "marginTop": 22,
+            }
+          }
+          testID="buttonSortPriceLowToHigh"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/ProductDescription/dollarDown.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 30,
+                  "resizeMode": "contain",
+                  "width": 24,
+                }
+              }
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#3e454f",
+                  "fontFamily": "GTWalsheimPro-Regular",
+                  "fontSize": 34,
+                  "lineHeight": 38,
+                  "marginLeft": 18,
+                }
+              }
+            >
+              Price, Low to High
+            </Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginLeft": 53.2,
+              "marginTop": 22,
+            }
+          }
+          testID="buttonSortPriceHighToLow"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/ProductDescription/dollarDown.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 30,
+                  "resizeMode": "contain",
+                  "width": 24,
+                }
+              }
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#3e454f",
+                  "fontFamily": "GTWalsheimPro-Regular",
+                  "fontSize": 34,
+                  "lineHeight": 38,
+                  "marginLeft": 18,
+                }
+              }
+            >
+              Price, High to Low
+            </Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginLeft": 53.2,
+              "marginTop": 22,
+            }
+          }
+          testID="buttonSortNewestProducts"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/ProductDescription/newIcon.png",
+                }
+              }
+              style={Object {}}
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#3e454f",
+                  "fontFamily": "GTWalsheimPro-Regular",
+                  "fontSize": 34,
+                  "lineHeight": 38,
+                  "marginLeft": 18,
+                }
+              }
+            >
+              Newest Products
+            </Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginLeft": 53.2,
+              "marginTop": 22,
+            }
+          }
+          testID="buttonSortPopularity"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/ProductDescription/popularityIcon.png",
+                }
+              }
+              style={Object {}}
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#3e454f",
+                  "fontFamily": "GTWalsheimPro-Regular",
+                  "fontSize": 34,
+                  "lineHeight": 38,
+                  "marginLeft": 18,
+                }
+              }
+            >
+              Popularity
+            </Text>
+          </View>
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/ProductDescription/tickIcon.png",
+              }
+            }
+            style={
+              Object {
+                "height": 36.6,
+                "marginRight": 53.6,
+                "width": 36.6,
+              }
+            }
+          />
+        </TouchableOpacity>
+      </View>
+    </TouchableOpacity>
+  </Component>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "marginLeft": 22,
+        "marginTop": 10,
+      }
+    }
+  >
+    <FlatList
+      data={Array []}
+      disableVirtualization={false}
+      extraData={
+        Object {
+          "cartLength": 1,
+          "cartProduct": Array [
+            Object {},
+          ],
+          "customErrorMessage": undefined,
+          "customErrorModal": true,
+          "data": "",
+          "filterQueryParams": "sort[order_by]=sold&sort[direction]=desc",
+          "filterSelection": Array [
+            Object {
+              "isSelected": false,
+            },
+            Object {
+              "isSelected": false,
+            },
+            Object {
+              "isSelected": false,
+            },
+            Object {
+              "isSelected": true,
+            },
+          ],
+          "isFetching": true,
+          "isShowError": true,
+          "isSortByEnabled": true,
+          "lastFilterQuery": "",
+          "noProductFound": false,
+          "productList": Array [],
+          "screenName": "",
+          "showSortByModal": false,
+          "token": undefined,
+        }
+      }
+      horizontal={false}
+      initialNumToRender={10}
+      keyExtractor={[Function]}
+      maxToRenderPerBatch={10}
+      numColumns={2}
+      onEndReachedThreshold={0.01}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      updateCellsBatchingPeriod={50}
+      windowSize={21}
+    />
+  </View>
+</SafeAreaView>
+`;
+
+exports[`filteritems User navigates to filteroptions 1`] = `
+<SafeAreaView
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "flex": 1,
+    }
+  }
+>
+  <TopHeader
+    headerLeftIconName={
+      Object {
+        "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/header/backIcon.png",
+      }
+    }
+    headerRight={
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "height": 100,
+            "justifyContent": "center",
+            "position": "absolute",
+            "right": 40,
+            "top": 30,
+            "width": 100,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#3e454f",
+              "flex": 1,
+              "fontFamily": "GTWalsheimPro-Medium",
+              "fontSize": 24,
+              "lineHeight": 28,
+            }
+          }
+        >
+          Clear
+        </Text>
+      </TouchableOpacity>
+    }
+    headerTitle="Filter"
+    headerTitleStyle={
+      Object {
+        "marginLeft": 200,
+      }
+    }
+    headerTitleViewStyle={
+      Object {
+        "width": 300,
+      }
+    }
+    navigation={
+      Object {
+        "addListener": [MockFunction] {
+          "calls": Array [
+            Array [
+              "willFocus",
+              [Function],
+            ],
+            Array [
+              "willFocus",
+              [Function],
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+        "goBack": [MockFunction],
+        "navigate": [MockFunction] {
+          "calls": Array [
+            Array [
+              "Filteroptions",
+              Object {
+                "filterData": Array [],
+                "onPressFilter": [Function],
+              },
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+        "state": Object {
+          "params": Object {
+            "filterData": Array [],
+            "onPressFilter": [MockFunction],
+          },
+        },
+      }
+    }
+    onPressLeft={[Function]}
+  />
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+      }
+    }
+  >
+    <ApplicationLoader
+      isFetching={true}
+    />
+    <CustomErrorModal
+      hideErrorModal={[Function]}
+      message=""
+      showModal={false}
+    />
+    <View
+      style={
+        Object {
+          "alignSelf": "flex-start",
+          "backgroundColor": "#ffffff",
+          "height": 1274.8,
+          "marginTop": 7,
+          "width": 238.4,
+        }
+      }
+    >
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+        style={
+          Array [
+            Object {
+              "height": 109.2,
+              "justifyContent": "center",
+              "width": 238.4,
+            },
+            Object {
+              "backgroundColor": "#fff",
+            },
+          ]
+        }
+        testID="buttonPriceRange"
+      >
+        <Text
+          style={
+            Object {
+              "color": "#3e454f",
+              "fontFamily": "GTWalsheimPro-Regular",
+              "fontSize": 30,
+              "lineHeight": 48,
+              "marginLeft": 27.8,
+              "textAlign": "left",
+            }
+          }
+        >
+          Price Range
+        </Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+        style={
+          Array [
+            Object {
+              "height": 109.2,
+              "justifyContent": "center",
+              "width": 238.4,
+            },
+            Object {
+              "backgroundColor": undefined,
+            },
+          ]
+        }
+        testID="buttonBrand"
+      >
+        <Text
+          style={
+            Object {
+              "color": "#3e454f",
+              "fontFamily": "GTWalsheimPro-Regular",
+              "fontSize": 30,
+              "lineHeight": 48,
+              "marginLeft": 27.8,
+              "textAlign": "left",
+            }
+          }
+        >
+          Brand
+        </Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+        style={
+          Array [
+            Object {
+              "height": 109.2,
+              "justifyContent": "center",
+              "width": 238.4,
+            },
+            Object {
+              "backgroundColor": undefined,
+            },
+          ]
+        }
+        testID="buttonTags"
+      >
+        <Text
+          style={
+            Object {
+              "color": "#3e454f",
+              "fontFamily": "GTWalsheimPro-Regular",
+              "fontSize": 30,
+              "lineHeight": 48,
+              "marginLeft": 27.8,
+              "textAlign": "left",
+            }
+          }
+        >
+          Tags
+        </Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+        style={
+          Array [
+            Object {
+              "height": 109.2,
+              "justifyContent": "center",
+              "width": 238.4,
+            },
+            Object {
+              "backgroundColor": undefined,
+            },
+          ]
+        }
+        testID="buttonCategory"
+      >
+        <Text
+          style={
+            Object {
+              "color": "#3e454f",
+              "fontFamily": "GTWalsheimPro-Regular",
+              "fontSize": 30,
+              "lineHeight": 48,
+              "marginLeft": 27.8,
+              "textAlign": "left",
+            }
+          }
+        >
+          Category
+        </Text>
+      </TouchableOpacity>
+    </View>
+    <View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ffffff",
+            "height": 1284,
+            "paddingTop": 26,
+            "width": 511.6,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#3e454f",
+              "fontFamily": "GTWalsheimPro-Regular",
+              "fontSize": 30,
+              "lineHeight": 36,
+              "marginLeft": 53.6,
+              "textAlign": "left",
+            }
+          }
+        >
+          Select a price range
+        </Text>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginLeft": 51.6,
+              "marginTop": 23,
+              "width": 404.6,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#3e454f",
+                "fontFamily": "GTWalsheimPro-Regular",
+                "fontSize": 30,
+                "lineHeight": 36,
+              }
+            }
+          >
+            £
+             
+            0
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#3e454f",
+                "fontFamily": "GTWalsheimPro-Regular",
+                "fontSize": 30,
+                "lineHeight": 36,
+              }
+            }
+          >
+            £
+             
+            2000
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "marginLeft": 80,
+            }
+          }
+        >
+          <MultiSlider
+            allowOverlap={false}
+            customLabel={[Function]}
+            customMarker={[Function]}
+            customMarkerLeft={[Function]}
+            customMarkerRight={[Function]}
+            enableLabel={false}
+            enabledOne={true}
+            enabledTwo={true}
+            markerOffsetX={0}
+            markerOffsetY={0}
+            markerStyle={
+              Object {
+                "backgroundColor": "#1809b8",
+                "borderColor": "#ffffff",
+                "borderWidth": 2,
+                "height": 26,
+                "marginTop": 5,
+                "width": 26,
+              }
+            }
+            max={2000}
+            min={0}
+            minMarkerOverlapDistance={0}
+            onMarkersPosition={[Function]}
+            onValuesChange={[Function]}
+            onValuesChangeFinish={[Function]}
+            onValuesChangeStart={[Function]}
+            selectedStyle={
+              Object {
+                "backgroundColor": "#1809b8",
+              }
+            }
+            sliderLength={535}
+            snapped={false}
+            step={1}
+            touchDimensions={
+              Object {
+                "borderRadius": 15,
+                "height": 50,
+                "slipDisplacement": 200,
+                "width": 50,
+              }
+            }
+            trackStyle={
+              Object {
+                "backgroundColor": "#3e454f",
+                "height": 8,
+              }
+            }
+            values={
+              Array [
+                0,
+                2000,
+              ]
+            }
+            vertical={false}
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "marginLeft": 54.6,
+              "marginTop": 35,
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/Filter/Unchecked/Rectangle29Copy.png",
+                }
+              }
+              style={
+                Object {
+                  "borderRadius": 3,
+                  "height": 29.8,
+                  "width": 29.8,
+                }
+              }
+            />
+          </TouchableOpacity>
+          <Text
+            style={
+              Object {
+                "alignSelf": "center",
+                "color": "#3e454f",
+                "fontFamily": "GTWalsheimPro-Regular",
+                "fontSize": 30,
+                "lineHeight": 36,
+                "marginLeft": 22.8,
+                "opacity": 0.8,
+                "textAlign": "left",
+              }
+            }
+          >
+             Discounted Items 
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignContent": "center",
+        "backgroundColor": "#ffffff",
+        "bottom": 7,
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+        "width": 750,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginHorizontal": 22,
+          "marginTop": 8,
+        }
+      }
+    >
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#3e454f",
+            "borderRadius": 21,
+            "height": 88,
+            "justifyContent": "center",
+            "opacity": 0.99,
+            "width": 346,
+          }
+        }
+        testID="buttonCancel"
+      >
+        <Text
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "#ffffff",
+              "fontFamily": "GTWalsheimPro-Medium",
+              "fontSize": 28,
+              "letterSpacing": 0.4,
+              "lineHeight": 32,
+            }
+          }
+        >
+          CANCEL
+        </Text>
+      </TouchableOpacity>
+      <GreenButton
+        customStyle={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#3e454f",
+            "borderRadius": 21,
+            "height": 88,
+            "justifyContent": "center",
+            "opacity": 0.99,
+            "width": 346,
+          }
+        }
+        customTxtStyle={
+          Object {
+            "alignSelf": "center",
+            "color": "#ffffff",
+            "fontFamily": "GTWalsheimPro-Medium",
+            "fontSize": 28,
+            "letterSpacing": 0.4,
+            "lineHeight": 32,
+          }
+        }
+        onPress={[Function]}
+        testID="buttonApplyFilter"
+        title="APPLY FILTER"
+      />
+    </View>
+  </View>
+</SafeAreaView>
+`;
+
+exports[`filteritems User navigates to filteroptions 2`] = `
+<SafeAreaView
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "flex": 1,
+    }
+  }
+>
+  <TopHeader
+    headerLeftIconName={
+      Object {
+        "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/header/backIcon.png",
+      }
+    }
+    headerRight={
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "height": 100,
+            "justifyContent": "center",
+            "position": "absolute",
+            "right": 40,
+            "top": 30,
+            "width": 100,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#3e454f",
+              "flex": 1,
+              "fontFamily": "GTWalsheimPro-Medium",
+              "fontSize": 24,
+              "lineHeight": 28,
+            }
+          }
+        >
+          Clear
+        </Text>
+      </TouchableOpacity>
+    }
+    headerTitle="Filter"
+    headerTitleStyle={
+      Object {
+        "marginLeft": 200,
+      }
+    }
+    headerTitleViewStyle={
+      Object {
+        "width": 300,
+      }
+    }
+    navigation={
+      Object {
+        "addListener": [MockFunction] {
+          "calls": Array [
+            Array [
+              "willFocus",
+              [Function],
+            ],
+            Array [
+              "willFocus",
+              [Function],
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+        "goBack": [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+        "navigate": [MockFunction] {
+          "calls": Array [
+            Array [
+              "Filteroptions",
+              Object {
+                "filterData": Array [],
+                "onPressFilter": [Function],
+              },
+            ],
+            Array [
+              "Filteritems",
+              Object {
+                "data": Array [
+                  Object {},
+                ],
+              },
+            ],
+            Array [
+              "Filteritems",
+              Object {
+                "filterData": Object {
+                  "discount": false,
+                  "filterBrands": Array [],
+                  "filterCategories": Array [
+                    Object {},
+                  ],
+                  "filterHighRange": 2000,
+                  "filterLowRange": 0,
+                  "filterMax": 2000,
+                  "filterMin": 0,
+                  "filterSubCategories": Array [],
+                  "filterTags": Array [
+                    Object {},
+                  ],
+                },
+                "isFromFilter": true,
+              },
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+        "state": Object {
+          "params": Object {
+            "filterData": Array [],
+            "onPressFilter": [MockFunction] {
+              "calls": Array [
+                Array [
+                  Array [
+                    Object {},
+                  ],
+                ],
+                Array [
+                  "q[price][from]=0&q[price][to]=2000",
+                ],
+              ],
+              "results": Array [
+                Object {
+                  "type": "return",
+                  "value": undefined,
+                },
+                Object {
+                  "type": "return",
+                  "value": undefined,
+                },
+              ],
+            },
+          },
+        },
+      }
+    }
+    onPressLeft={[Function]}
+  />
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+      }
+    }
+  >
+    <ApplicationLoader
+      isFetching={false}
+    />
+    <CustomErrorModal
+      hideErrorModal={[Function]}
+      message=""
+      showModal={false}
+    />
+    <View
+      style={
+        Object {
+          "alignSelf": "flex-start",
+          "backgroundColor": "#ffffff",
+          "height": 1274.8,
+          "marginTop": 7,
+          "width": 238.4,
+        }
+      }
+    >
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+        style={
+          Array [
+            Object {
+              "height": 109.2,
+              "justifyContent": "center",
+              "width": 238.4,
+            },
+            Object {
+              "backgroundColor": undefined,
+            },
+          ]
+        }
+        testID="buttonPriceRange"
+      >
+        <Text
+          style={
+            Object {
+              "color": "#3e454f",
+              "fontFamily": "GTWalsheimPro-Regular",
+              "fontSize": 30,
+              "lineHeight": 48,
+              "marginLeft": 27.8,
+              "textAlign": "left",
+            }
+          }
+        >
+          Price Range
+        </Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+        style={
+          Array [
+            Object {
+              "height": 109.2,
+              "justifyContent": "center",
+              "width": 238.4,
+            },
+            Object {
+              "backgroundColor": undefined,
+            },
+          ]
+        }
+        testID="buttonBrand"
+      >
+        <Text
+          style={
+            Object {
+              "color": "#3e454f",
+              "fontFamily": "GTWalsheimPro-Regular",
+              "fontSize": 30,
+              "lineHeight": 48,
+              "marginLeft": 27.8,
+              "textAlign": "left",
+            }
+          }
+        >
+          Brand
+        </Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+        style={
+          Array [
+            Object {
+              "height": 109.2,
+              "justifyContent": "center",
+              "width": 238.4,
+            },
+            Object {
+              "backgroundColor": undefined,
+            },
+          ]
+        }
+        testID="buttonTags"
+      >
+        <Text
+          style={
+            Object {
+              "color": "#3e454f",
+              "fontFamily": "GTWalsheimPro-Regular",
+              "fontSize": 30,
+              "lineHeight": 48,
+              "marginLeft": 27.8,
+              "textAlign": "left",
+            }
+          }
+        >
+          Tags
+        </Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+        style={
+          Array [
+            Object {
+              "height": 109.2,
+              "justifyContent": "center",
+              "width": 238.4,
+            },
+            Object {
+              "backgroundColor": "#fff",
+            },
+          ]
+        }
+        testID="buttonCategory"
+      >
+        <Text
+          style={
+            Object {
+              "color": "#3e454f",
+              "fontFamily": "GTWalsheimPro-Regular",
+              "fontSize": 30,
+              "lineHeight": 48,
+              "marginLeft": 27.8,
+              "textAlign": "left",
+            }
+          }
+        >
+          Category
+        </Text>
+      </TouchableOpacity>
+    </View>
+    <View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ffffff",
+            "flex": 1,
+            "marginBottom": 240,
+            "width": 511.6,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "flex-start",
+              "marginLeft": 56,
+              "marginTop": 23,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/Home/search.png",
+              }
+            }
+            style={
+              Object {
+                "alignSelf": "center",
+                "height": 32,
+                "width": 32,
+              }
+            }
+          />
+          <TextInput
+            allowFontScaling={true}
+            onChangeText={[Function]}
+            placeholder="Search for a Category(s)"
+            rejectResponderTermination={true}
+            style={
+              Object {
+                "color": "#3e454f",
+                "flex": 1,
+                "fontFamily": "GTWalsheimPro-Medium",
+                "fontSize": 30,
+                "height": 100,
+                "lineHeight": 36,
+                "marginLeft": 36,
+                "textAlign": "left",
+              }
+            }
+            underlineColorAndroid="transparent"
+            value=""
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "borderColor": "#3e454f",
+              "borderWidth": 0.5,
+              "marginBottom": 22,
+              "marginLeft": 55.6,
+              "marginRight": 34,
+              "opacity": 0.2,
+            }
+          }
+        />
+        <FlatList
+          data={
+            Array [
+              Object {},
+            ]
+          }
+          disableVirtualization={false}
+          extraData={
+            Object {
+              "BrandList": Array [],
+              "brand": false,
+              "brandsFilterList": Array [],
+              "brandsText": "",
+              "catHolder": Array [],
+              "category": true,
+              "categoryFilterList": Array [
+                Object {},
+              ],
+              "checkedBrand": null,
+              "checkedCategory": false,
+              "checkedDiscounted": false,
+              "checkedStock": false,
+              "checkedTag": false,
+              "customErrorMessage": "",
+              "customErrorModal": false,
+              "data": Array [
+                Object {},
+              ],
+              "discount": false,
+              "enableField": false,
+              "isFetching": false,
+              "outOfStock": false,
+              "price": Array [],
+              "priceMax": 0,
+              "priceMin": 0,
+              "pricerange": false,
+              "rangeHigh": 2000,
+              "rangeLow": 0,
+              "rangeMax": 2000,
+              "rangeMin": 0,
+              "scrollEnabled": false,
+              "searchText": "",
+              "searchedBrandsFilterList": Array [],
+              "searchedCategoryFilterList": Array [
+                Object {},
+              ],
+              "searchedTagsFilterList": Array [
+                Object {},
+              ],
+              "selectedCategory": Array [],
+              "selectedItems": Array [],
+              "subCategory": false,
+              "tag": false,
+              "tags": false,
+              "tagsList": Array [
+                Object {},
+              ],
+              "tagsText": "",
+              "token": undefined,
+              "value": 10,
+            }
+          }
+          horizontal={false}
+          initialNumToRender={10}
+          keyExtractor={[Function]}
+          maxToRenderPerBatch={10}
+          numColumns={1}
+          onEndReachedThreshold={2}
+          removeClippedSubviews={false}
+          renderItem={[Function]}
+          scrollEventThrottle={50}
+          updateCellsBatchingPeriod={50}
+          windowSize={21}
+        />
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignContent": "center",
+        "backgroundColor": "#ffffff",
+        "bottom": 7,
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+        "width": 750,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginHorizontal": 22,
+          "marginTop": 8,
+        }
+      }
+    >
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#3e454f",
+            "borderRadius": 21,
+            "height": 88,
+            "justifyContent": "center",
+            "opacity": 0.99,
+            "width": 346,
+          }
+        }
+        testID="buttonCancel"
+      >
+        <Text
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "#ffffff",
+              "fontFamily": "GTWalsheimPro-Medium",
+              "fontSize": 28,
+              "letterSpacing": 0.4,
+              "lineHeight": 32,
+            }
+          }
+        >
+          CANCEL
+        </Text>
+      </TouchableOpacity>
+      <GreenButton
+        customStyle={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#3e454f",
+            "borderRadius": 21,
+            "height": 88,
+            "justifyContent": "center",
+            "opacity": 0.99,
+            "width": 346,
+          }
+        }
+        customTxtStyle={
+          Object {
+            "alignSelf": "center",
+            "color": "#ffffff",
+            "fontFamily": "GTWalsheimPro-Medium",
+            "fontSize": 28,
+            "letterSpacing": 0.4,
+            "lineHeight": 32,
+          }
+        }
+        onPress={[Function]}
+        testID="buttonApplyFilter"
+        title="APPLY FILTER"
+      />
+    </View>
+  </View>
+</SafeAreaView>
+`;

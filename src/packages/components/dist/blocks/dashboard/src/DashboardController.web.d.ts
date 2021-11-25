@@ -1,0 +1,106 @@
+import { Message } from "../../../framework/src/Message";
+import { BlockComponent } from "../../../framework/src/BlockComponent";
+export declare const configJSON: any;
+export interface Props {
+    navigation: any;
+    id: string;
+}
+interface S {
+    dashboardData: any;
+    errorMsg: string;
+    loading: boolean;
+    auth: string | null | undefined;
+    snackBar: {
+        show: boolean;
+        message?: string;
+        type?: "success" | "info" | "warning" | "error" | undefined;
+    };
+    showAlert: boolean;
+    message?: string;
+    type?: string;
+    collectionCategory: any;
+    newCollection: any;
+    featuredProduct: any;
+    isCartCreated: boolean;
+    cartId: any;
+    catalogue_id: any;
+    catalogue_variant_id: any;
+    productDetails: any;
+    productToBeAdded: any;
+    productInCart: any;
+    itemQuantity: any;
+    currentImage: any;
+    default_variant: any;
+    active_color: any;
+    active_size: any;
+    available_colors: any;
+    available_sizes: any;
+    product_rating: any;
+    isReviewModalOpen: boolean;
+    commentBox: any;
+    reviews: any;
+    reviewShown: any;
+    reviewRatings: any;
+    SingleProductReview: any;
+    allSingleProductReview: any;
+    banners: any;
+    notifyModelOpen: any;
+    productDescriptionLoader: boolean;
+    dashboardLoader: boolean;
+    invalidTokenMessageRecieved: boolean;
+}
+interface SS {
+    id: any;
+}
+export default class DashboardController extends BlockComponent<Props, S, SS> {
+    auth: string | null | undefined;
+    apiDashboardItemCallId: string;
+    dashboardApiCallId: string;
+    apiGetQueryStrinurl: string;
+    GetAllNewCollectionApiCallId: string;
+    GetCategoryListApiCallId: string;
+    GetFeaturedProductApiCallId: string;
+    GetIsCartCreatedApiCallId: string;
+    getProductDetailsApiCallId: string;
+    postCreateCartApiCallId: string;
+    putItemToCartApiCallId: string;
+    getAllWishlistApiCallId: string;
+    postWishlistApiCallId: string;
+    delWishlistApiCallId: string;
+    putUpdateCartQuantityApiCallId: string;
+    postReviewApiCallId: string;
+    getProductReviewApiCallId: string;
+    UpdateProductReviewApiCallId: string;
+    GetBannersApiCallId: string;
+    postNotifyMeApiCallId: string;
+    constructor(props: Props);
+    componentDidMount(): Promise<void>;
+    receive(from: string, message: Message): Promise<void>;
+    getBanners: () => boolean;
+    getNewCollection: () => boolean;
+    getCategoryList: () => boolean;
+    getFeaturedProduct: () => boolean;
+    getIsCartCreated: () => boolean;
+    postCreateCart: (product: any) => boolean;
+    putItemToCart: (cartId: any) => boolean;
+    getProductDetails: () => boolean;
+    postWishlist: (catalogue_id: any) => boolean;
+    delWishlist: (catalogue_id: any) => boolean;
+    putUpdateCartQuantity: (product_id: any, product_variant: any) => boolean;
+    postReview: () => boolean;
+    getAllProductReview: () => boolean;
+    putUpdateReview: () => boolean;
+    getAllWishlist: () => boolean;
+    addToCart: (product: any) => void;
+    postNotifyMe: (variant_id: any) => boolean;
+    toSetDefaultVariant: () => void;
+    selectingColor: (item: any) => void;
+    settingSize: (item: any) => void;
+    imageSlider: (imageUrl: any) => void;
+    handleCloseReview: () => void;
+    handleNotifyProductClose: () => void;
+    handleNotifyProductOpen: () => void;
+    productReviewDetails: () => void;
+    handleComment: (e: any) => void;
+}
+export {};

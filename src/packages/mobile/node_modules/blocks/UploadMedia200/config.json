@@ -1,0 +1,65 @@
+{
+  "id": "UploadMedia200",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/UploadMedia200",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "UploadMedia200"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "UploadMedia200": {
+        "file": "UploadMedia200.tsx",
+        "extends": "UploadMedia200Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "UploadMedia200Controller",
+            "path": "./UploadMedia200Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./UploadMedia200Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "UploadMedia200"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "UploadMedia200Block": {
+        "file": "UploadMedia200Block.tsx",
+        "extends": "UploadMedia200Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "UploadMedia200Controller",
+            "path": "./UploadMedia200Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./UploadMedia200Controller"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,715 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`notifications User navigates to notifications 1`] = `
+<SafeAreaView
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <StatusBar
+    animated={false}
+    backgroundColor="#FFF"
+    barStyle="dark-content"
+    showHideTransition="fade"
+  />
+  <TopHeader
+    headerLeftIconName={
+      Object {
+        "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/header/backIcon.png",
+      }
+    }
+    headerRight={
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "height": 100,
+            "justifyContent": "center",
+            "position": "absolute",
+            "right": 20,
+            "top": 10,
+            "width": 100,
+          }
+        }
+      />
+    }
+    headerStyle={Object {}}
+    headerTitle="Notifications"
+    headerTitleStyle={
+      Object {
+        "left": 180,
+        "position": "absolute",
+        "top": 10,
+      }
+    }
+    headerTitleViewStyle={
+      Object {
+        "alignItems": "center",
+        "width": 300,
+      }
+    }
+    navigation={
+      Object {
+        "addListener": [MockFunction] {
+          "calls": Array [
+            Array [
+              "willFocus",
+              [Function],
+            ],
+            Array [
+              "willFocus",
+              [Function],
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+        "navigate": [MockFunction],
+      }
+    }
+    onPressLeft={[Function]}
+  />
+</SafeAreaView>
+`;
+
+exports[`notifications User navigates to notifications 2`] = `
+<SafeAreaView
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <StatusBar
+    animated={false}
+    backgroundColor="#FFF"
+    barStyle="dark-content"
+    showHideTransition="fade"
+  />
+  <TopHeader
+    headerLeftIconName={
+      Object {
+        "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/header/backIcon.png",
+      }
+    }
+    headerRight={
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "height": 100,
+            "justifyContent": "center",
+            "position": "absolute",
+            "right": 20,
+            "top": 10,
+            "width": 100,
+          }
+        }
+      />
+    }
+    headerStyle={Object {}}
+    headerTitle="Notifications"
+    headerTitleStyle={
+      Object {
+        "left": 180,
+        "position": "absolute",
+        "top": 10,
+      }
+    }
+    headerTitleViewStyle={
+      Object {
+        "alignItems": "center",
+        "width": 300,
+      }
+    }
+    navigation={
+      Object {
+        "addListener": [MockFunction] {
+          "calls": Array [
+            Array [
+              "willFocus",
+              [Function],
+            ],
+            Array [
+              "willFocus",
+              [Function],
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+        "navigate": [MockFunction],
+      }
+    }
+    onPressLeft={[Function]}
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#ffffff",
+        "flex": 1,
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Image
+        resizeMode="cover"
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/icon/emptyNotificationImage.png",
+          }
+        }
+        style={
+          Object {
+            "alignSelf": "center",
+            "height": 288,
+            "width": 237.4,
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "color": "#3e454f",
+            "fontFamily": "GTWalsheimPro-Medium",
+            "fontSize": 34,
+            "lineHeight": 38,
+            "marginTop": 38,
+            "opacity": 0.9,
+            "textAlign": "center",
+          }
+        }
+      >
+        No notifications yet !
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#3e454f",
+            "fontFamily": "GTWalsheimPro-Medium",
+            "fontSize": 30,
+            "lineHeight": 36,
+            "marginTop": 8,
+            "opacity": 0.5,
+            "textAlign": "center",
+          }
+        }
+      >
+        Browse for products or check out
+our latest additions.
+      </Text>
+    </View>
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+      testID="buttonContinueShopping"
+    >
+      <LinearGradient
+        colors={
+          Array [
+            "#1a653b",
+            "#1a653b",
+            "#1a653b",
+          ]
+        }
+        end={
+          Object {
+            "x": 0.5,
+            "y": 1,
+          }
+        }
+        start={
+          Object {
+            "x": 0.5,
+            "y": 0,
+          }
+        }
+        style={
+          Object {
+            "alignItems": "center",
+            "borderRadius": 40,
+            "height": 88,
+            "justifyContent": "center",
+            "marginBottom": 30,
+            "opacity": 0.99,
+            "width": 670,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#ffffff",
+              "fontFamily": "GTWalsheimPro-Bold",
+              "fontSize": 30,
+              "lineHeight": 36,
+              "textAlign": "center",
+            }
+          }
+        >
+          CONTINUE SHOPPING
+        </Text>
+      </LinearGradient>
+    </TouchableOpacity>
+  </View>
+</SafeAreaView>
+`;
+
+exports[`notifications User navigates to notifications 3`] = `
+<SafeAreaView
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <StatusBar
+    animated={false}
+    backgroundColor="#FFF"
+    barStyle="dark-content"
+    showHideTransition="fade"
+  />
+  <TopHeader
+    headerLeftIconName={
+      Object {
+        "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/header/backIcon.png",
+      }
+    }
+    headerRight={
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "height": 100,
+            "justifyContent": "center",
+            "position": "absolute",
+            "right": 20,
+            "top": 10,
+            "width": 100,
+          }
+        }
+      />
+    }
+    headerStyle={Object {}}
+    headerTitle="Notifications"
+    headerTitleStyle={
+      Object {
+        "left": 180,
+        "position": "absolute",
+        "top": 10,
+      }
+    }
+    headerTitleViewStyle={
+      Object {
+        "alignItems": "center",
+        "width": 300,
+      }
+    }
+    navigation={
+      Object {
+        "addListener": [MockFunction] {
+          "calls": Array [
+            Array [
+              "willFocus",
+              [Function],
+            ],
+            Array [
+              "willFocus",
+              [Function],
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+        "navigate": [MockFunction] {
+          "calls": Array [
+            Array [
+              "Catalogue",
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+      }
+    }
+    onPressLeft={[Function]}
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#ffffff",
+        "flex": 1,
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Image
+        resizeMode="cover"
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/icon/emptyNotificationImage.png",
+          }
+        }
+        style={
+          Object {
+            "alignSelf": "center",
+            "height": 288,
+            "width": 237.4,
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "color": "#3e454f",
+            "fontFamily": "GTWalsheimPro-Medium",
+            "fontSize": 34,
+            "lineHeight": 38,
+            "marginTop": 38,
+            "opacity": 0.9,
+            "textAlign": "center",
+          }
+        }
+      >
+        No notifications yet !
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#3e454f",
+            "fontFamily": "GTWalsheimPro-Medium",
+            "fontSize": 30,
+            "lineHeight": 36,
+            "marginTop": 8,
+            "opacity": 0.5,
+            "textAlign": "center",
+          }
+        }
+      >
+        Browse for products or check out
+our latest additions.
+      </Text>
+    </View>
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+      testID="buttonContinueShopping"
+    >
+      <LinearGradient
+        colors={
+          Array [
+            "#1a653b",
+            "#1a653b",
+            "#1a653b",
+          ]
+        }
+        end={
+          Object {
+            "x": 0.5,
+            "y": 1,
+          }
+        }
+        start={
+          Object {
+            "x": 0.5,
+            "y": 0,
+          }
+        }
+        style={
+          Object {
+            "alignItems": "center",
+            "borderRadius": 40,
+            "height": 88,
+            "justifyContent": "center",
+            "marginBottom": 30,
+            "opacity": 0.99,
+            "width": 670,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#ffffff",
+              "fontFamily": "GTWalsheimPro-Bold",
+              "fontSize": 30,
+              "lineHeight": 36,
+              "textAlign": "center",
+            }
+          }
+        >
+          CONTINUE SHOPPING
+        </Text>
+      </LinearGradient>
+    </TouchableOpacity>
+  </View>
+</SafeAreaView>
+`;
+
+exports[`notifications User navigates to notifications 4`] = `
+<SafeAreaView
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <StatusBar
+    animated={false}
+    backgroundColor="#FFF"
+    barStyle="dark-content"
+    showHideTransition="fade"
+  />
+  <TopHeader
+    headerLeftIconName={
+      Object {
+        "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/header/backIcon.png",
+      }
+    }
+    headerRight={
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "height": 100,
+            "justifyContent": "center",
+            "position": "absolute",
+            "right": 20,
+            "top": 10,
+            "width": 100,
+          }
+        }
+      />
+    }
+    headerStyle={Object {}}
+    headerTitle="Notifications"
+    headerTitleStyle={
+      Object {
+        "left": 180,
+        "position": "absolute",
+        "top": 10,
+      }
+    }
+    headerTitleViewStyle={
+      Object {
+        "alignItems": "center",
+        "width": 300,
+      }
+    }
+    navigation={
+      Object {
+        "addListener": [MockFunction] {
+          "calls": Array [
+            Array [
+              "willFocus",
+              [Function],
+            ],
+            Array [
+              "willFocus",
+              [Function],
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+        "navigate": [MockFunction] {
+          "calls": Array [
+            Array [
+              "Catalogue",
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+      }
+    }
+    onPressLeft={[Function]}
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#ffffff",
+        "flex": 1,
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Image
+        resizeMode="cover"
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/icon/emptyNotificationImage.png",
+          }
+        }
+        style={
+          Object {
+            "alignSelf": "center",
+            "height": 288,
+            "width": 237.4,
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "color": "#3e454f",
+            "fontFamily": "GTWalsheimPro-Medium",
+            "fontSize": 34,
+            "lineHeight": 38,
+            "marginTop": 38,
+            "opacity": 0.9,
+            "textAlign": "center",
+          }
+        }
+      >
+        No notifications yet !
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#3e454f",
+            "fontFamily": "GTWalsheimPro-Medium",
+            "fontSize": 30,
+            "lineHeight": 36,
+            "marginTop": 8,
+            "opacity": 0.5,
+            "textAlign": "center",
+          }
+        }
+      >
+        Browse for products or check out
+our latest additions.
+      </Text>
+    </View>
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+      testID="buttonContinueShopping"
+    >
+      <LinearGradient
+        colors={
+          Array [
+            "#1a653b",
+            "#1a653b",
+            "#1a653b",
+          ]
+        }
+        end={
+          Object {
+            "x": 0.5,
+            "y": 1,
+          }
+        }
+        start={
+          Object {
+            "x": 0.5,
+            "y": 0,
+          }
+        }
+        style={
+          Object {
+            "alignItems": "center",
+            "borderRadius": 40,
+            "height": 88,
+            "justifyContent": "center",
+            "marginBottom": 30,
+            "opacity": 0.99,
+            "width": 670,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#ffffff",
+              "fontFamily": "GTWalsheimPro-Bold",
+              "fontSize": 30,
+              "lineHeight": 36,
+              "textAlign": "center",
+            }
+          }
+        >
+          CONTINUE SHOPPING
+        </Text>
+      </LinearGradient>
+    </TouchableOpacity>
+  </View>
+</SafeAreaView>
+`;

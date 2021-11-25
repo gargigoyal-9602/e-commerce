@@ -1,0 +1,20 @@
+export declare const colors: {
+    darkishBlue: string;
+    pastelRed: string;
+    charcoalGrey: string;
+    darkGreyBlue: string;
+    greenButton: string;
+    white: string;
+    black: string;
+    borderduckEggBlue: string;
+    paleGrey: string;
+    paleGreyTwo: string;
+    LightlightNavy: string;
+    boderdarkishBlueTwo: string;
+    lightBlueGrey: string;
+    coolGrey: string;
+    darkishBlueTwo: string;
+    coolGreyTwo: string;
+    whiteTwo: string;
+    darkBlueGrey: string;
+};

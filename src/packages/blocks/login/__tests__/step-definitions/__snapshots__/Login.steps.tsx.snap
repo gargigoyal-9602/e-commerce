@@ -1,0 +1,899 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login User navigates to Login 1`] = `
+<KeyboardAwareScrollViewMock
+  enableAutomaticScroll={true}
+  enableOnAndroid={false}
+  enableResetScrollToCoords={true}
+  extraHeight={75}
+  extraScrollHeight={0}
+  keyboardOpeningTime={250}
+  style={
+    Object {
+      "backgroundColor": "#fff",
+    }
+  }
+  viewIsInsideTabBar={false}
+>
+  <SafeAreaView
+    style={
+      Object {
+        "backgroundColor": "#fff",
+      }
+    }
+  >
+    <FocusAwareStatusBar
+      backgroundColor="#1809b8"
+      barStyle="light-content"
+      isFocused={true}
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderTopLeftRadius": 10,
+          "borderTopRightRadius": 10,
+          "elevation": 1,
+          "shadowColor": "#000",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 4,
+          },
+          "shadowOpacity": 0.1,
+          "shadowRadius": 2,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "marginTop": 61,
+            },
+            Object {
+              "marginTop": 40,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fff",
+                "borderColor": "#dbdbdb",
+                "borderRadius": 40,
+                "borderWidth": 0.8,
+                "flexDirection": "row",
+                "height": 80,
+                "justifyContent": "center",
+                "width": 624,
+              },
+              Object {
+                "borderColor": "#dbdbdb",
+                "marginTop": 13,
+              },
+            ]
+          }
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/icon/email.png",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "height": 28.6,
+                  "marginLeft": 30,
+                  "resizeMode": "stretch",
+                  "width": 45.4,
+                },
+                Object {
+                  "tintColor": "#3e454f",
+                },
+              ]
+            }
+          />
+          <TextInput
+            allowFontScaling={true}
+            autoCapitalize="none"
+            blurOnSubmit={false}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            onSubmitEditing={[Function]}
+            placeholder="Email"
+            placeholderTextColor="#8b8f95"
+            rejectResponderTermination={true}
+            returnKeyType="next"
+            style={
+              Array [
+                Object {
+                  "color": "#004491",
+                  "fontSize": 15,
+                  "height": 40,
+                  "lineHeight": 18,
+                  "marginLeft": 18,
+                  "width": 256,
+                },
+                Object {
+                  "color": "#3e454f",
+                },
+              ]
+            }
+            underlineColorAndroid="transparent"
+            value=""
+          />
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fff",
+                "borderColor": "#dbdbdb",
+                "borderRadius": 40,
+                "borderWidth": 0.8,
+                "flexDirection": "row",
+                "height": 80,
+                "justifyContent": "center",
+                "width": 624,
+              },
+              Object {
+                "borderColor": "#dbdbdb",
+                "marginTop": 13,
+              },
+            ]
+          }
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/icon/door.png",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "height": 23.4,
+                  "marginLeft": 30,
+                  "resizeMode": "stretch",
+                  "width": 47.8,
+                },
+                Object {
+                  "tintColor": "#3e454f",
+                },
+              ]
+            }
+          />
+          <TextInput
+            allowFontScaling={true}
+            autoCapitalize="none"
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            placeholder="Password"
+            placeholderTextColor="#8b8f95"
+            rejectResponderTermination={true}
+            returnKeyType="done"
+            secureTextEntry={true}
+            style={
+              Array [
+                Object {
+                  "color": "#004491",
+                  "fontSize": 15,
+                  "height": 40,
+                  "lineHeight": 18,
+                  "marginLeft": 18.3,
+                  "width": 222.8,
+                },
+                Object {
+                  "color": "#3e454f",
+                },
+              ]
+            }
+            underlineColorAndroid="transparent"
+            value=""
+          />
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Object {
+                "marginRight": 33.6,
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/icon/eye.png",
+                }
+              }
+              style={Object {}}
+            />
+          </TouchableOpacity>
+        </View>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          disabled={true}
+          onPress={[Function]}
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#1809b8",
+                "borderRadius": 22,
+                "height": 44,
+                "justifyContent": "center",
+                "marginTop": 29,
+                "width": 312,
+              },
+              Object {
+                "backgroundColor": "#320bf4",
+                "opacity": 0.5,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#fff",
+                "fontSize": 14,
+                "letterSpacing": 1,
+                "lineHeight": 16,
+                "opacity": 0.9,
+              }
+            }
+          >
+            LOG IN
+          </Text>
+        </TouchableOpacity>
+      </View>
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+      >
+        <Text
+          style={
+            Object {
+              "color": "#3e454f",
+              "fontSize": 13,
+              "lineHeight": 15,
+              "marginBottom": 21,
+              "marginTop": 24,
+              "textAlign": "center",
+            }
+          }
+        >
+          Forgot Password ?
+        </Text>
+      </TouchableOpacity>
+    </View>
+    <View
+      style={
+        Array [
+          Object {},
+          Object {
+            "backgroundColor": "#f5f5f5",
+            "elevation": 0,
+            "paddingBottom": 0,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#3e454f",
+              "fontSize": 11,
+              "lineHeight": 13,
+              "marginTop": 21,
+              "textAlign": "center",
+            },
+            Object {
+              "marginTop": 21,
+            },
+          ]
+        }
+      >
+        or Continue via
+      </Text>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "marginHorizontal": 30,
+            "marginTop": 13.8,
+          }
+        }
+      >
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#054995",
+              "borderRadius": 39.6,
+              "flex": 1,
+              "flexDirection": "row",
+              "height": 75.6,
+              "justifyContent": "center",
+              "marginHorizontal": 4,
+              "width": 220,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/icon/Facebook_1.png",
+              }
+            }
+            style={
+              Object {
+                "height": 26.2,
+                "marginRight": 12,
+                "width": 11.4,
+              }
+            }
+          />
+          <Text
+            style={
+              Object {
+                "color": "#ffffff",
+                "fontSize": 28.8,
+                "lineHeight": 34,
+              }
+            }
+          >
+            Facebook
+          </Text>
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#054995",
+                "borderRadius": 39.6,
+                "flex": 1,
+                "flexDirection": "row",
+                "height": 75.6,
+                "justifyContent": "center",
+                "marginHorizontal": 4,
+                "width": 220,
+              },
+              Object {
+                "backgroundColor": "#e65e52",
+              },
+            ]
+          }
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/icon/gmail.png",
+              }
+            }
+            style={
+              Object {
+                "height": 24.4,
+                "marginRight": 15.4,
+                "width": 32.6,
+              }
+            }
+          />
+          <Text
+            style={
+              Object {
+                "color": "#ffffff",
+                "fontSize": 28.8,
+                "lineHeight": 34,
+              }
+            }
+          >
+            Google
+          </Text>
+        </TouchableOpacity>
+      </View>
+      <View
+        style={
+          Object {
+            "marginHorizontal": 40,
+            "marginTop": 13.8,
+          }
+        }
+      />
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+      >
+        <Text
+          style={
+            Object {
+              "color": "#3e454f",
+              "fontSize": 30,
+              "lineHeight": 36,
+              "marginBottom": 61,
+              "marginTop": 20,
+              "textAlign": "center",
+            }
+          }
+        >
+          Skip & Continue as Guest
+        </Text>
+      </TouchableOpacity>
+    </View>
+    <ApplicationLoader
+      isFetching={false}
+    />
+    <CustomErrorModal
+      hideErrorModal={[Function]}
+      isShowError={false}
+      message=""
+      showModal={false}
+    />
+  </SafeAreaView>
+</KeyboardAwareScrollViewMock>
+`;
+
+exports[`Login User navigates to Login 2`] = `
+<KeyboardAwareScrollViewMock
+  enableAutomaticScroll={true}
+  enableOnAndroid={false}
+  enableResetScrollToCoords={true}
+  extraHeight={75}
+  extraScrollHeight={0}
+  keyboardOpeningTime={250}
+  style={
+    Object {
+      "backgroundColor": "#fff",
+    }
+  }
+  viewIsInsideTabBar={false}
+>
+  <SafeAreaView
+    style={
+      Object {
+        "backgroundColor": "#fff",
+      }
+    }
+  >
+    <FocusAwareStatusBar
+      backgroundColor="#1809b8"
+      barStyle="light-content"
+      isFocused={true}
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderTopLeftRadius": 10,
+          "borderTopRightRadius": 10,
+          "elevation": 1,
+          "shadowColor": "#000",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 4,
+          },
+          "shadowOpacity": 0.1,
+          "shadowRadius": 2,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "marginTop": 61,
+            },
+            Object {
+              "marginTop": 40,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fff",
+                "borderColor": "#dbdbdb",
+                "borderRadius": 40,
+                "borderWidth": 0.8,
+                "flexDirection": "row",
+                "height": 80,
+                "justifyContent": "center",
+                "width": 624,
+              },
+              Object {
+                "borderColor": "#dbdbdb",
+                "marginTop": 13,
+              },
+            ]
+          }
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/icon/email.png",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "height": 28.6,
+                  "marginLeft": 30,
+                  "resizeMode": "stretch",
+                  "width": 45.4,
+                },
+                Object {
+                  "tintColor": "#3e454f",
+                },
+              ]
+            }
+          />
+          <TextInput
+            allowFontScaling={true}
+            autoCapitalize="none"
+            blurOnSubmit={false}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            onSubmitEditing={[Function]}
+            placeholder="Email"
+            placeholderTextColor="#8b8f95"
+            rejectResponderTermination={true}
+            returnKeyType="next"
+            style={
+              Array [
+                Object {
+                  "color": "#004491",
+                  "fontSize": 15,
+                  "height": 40,
+                  "lineHeight": 18,
+                  "marginLeft": 18,
+                  "width": 256,
+                },
+                Object {
+                  "color": "#3e454f",
+                },
+              ]
+            }
+            underlineColorAndroid="transparent"
+            value=""
+          />
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fff",
+                "borderColor": "#dbdbdb",
+                "borderRadius": 40,
+                "borderWidth": 0.8,
+                "flexDirection": "row",
+                "height": 80,
+                "justifyContent": "center",
+                "width": 624,
+              },
+              Object {
+                "borderColor": "#dbdbdb",
+                "marginTop": 13,
+              },
+            ]
+          }
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/icon/door.png",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "height": 23.4,
+                  "marginLeft": 30,
+                  "resizeMode": "stretch",
+                  "width": 47.8,
+                },
+                Object {
+                  "tintColor": "#3e454f",
+                },
+              ]
+            }
+          />
+          <TextInput
+            allowFontScaling={true}
+            autoCapitalize="none"
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            placeholder="Password"
+            placeholderTextColor="#8b8f95"
+            rejectResponderTermination={true}
+            returnKeyType="done"
+            secureTextEntry={true}
+            style={
+              Array [
+                Object {
+                  "color": "#004491",
+                  "fontSize": 15,
+                  "height": 40,
+                  "lineHeight": 18,
+                  "marginLeft": 18.3,
+                  "width": 222.8,
+                },
+                Object {
+                  "color": "#3e454f",
+                },
+              ]
+            }
+            underlineColorAndroid="transparent"
+            value=""
+          />
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Object {
+                "marginRight": 33.6,
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/icon/eye.png",
+                }
+              }
+              style={Object {}}
+            />
+          </TouchableOpacity>
+        </View>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          disabled={true}
+          onPress={[Function]}
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#1809b8",
+                "borderRadius": 22,
+                "height": 44,
+                "justifyContent": "center",
+                "marginTop": 29,
+                "width": 312,
+              },
+              Object {
+                "backgroundColor": "#320bf4",
+                "opacity": 0.5,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#fff",
+                "fontSize": 14,
+                "letterSpacing": 1,
+                "lineHeight": 16,
+                "opacity": 0.9,
+              }
+            }
+          >
+            LOG IN
+          </Text>
+        </TouchableOpacity>
+      </View>
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+      >
+        <Text
+          style={
+            Object {
+              "color": "#3e454f",
+              "fontSize": 13,
+              "lineHeight": 15,
+              "marginBottom": 21,
+              "marginTop": 24,
+              "textAlign": "center",
+            }
+          }
+        >
+          Forgot Password ?
+        </Text>
+      </TouchableOpacity>
+    </View>
+    <View
+      style={
+        Array [
+          Object {},
+          Object {
+            "backgroundColor": "#f5f5f5",
+            "elevation": 0,
+            "paddingBottom": 0,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#3e454f",
+              "fontSize": 11,
+              "lineHeight": 13,
+              "marginTop": 21,
+              "textAlign": "center",
+            },
+            Object {
+              "marginTop": 21,
+            },
+          ]
+        }
+      >
+        or Continue via
+      </Text>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "marginHorizontal": 30,
+            "marginTop": 13.8,
+          }
+        }
+      >
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#054995",
+              "borderRadius": 39.6,
+              "flex": 1,
+              "flexDirection": "row",
+              "height": 75.6,
+              "justifyContent": "center",
+              "marginHorizontal": 4,
+              "width": 220,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/icon/Facebook_1.png",
+              }
+            }
+            style={
+              Object {
+                "height": 26.2,
+                "marginRight": 12,
+                "width": 11.4,
+              }
+            }
+          />
+          <Text
+            style={
+              Object {
+                "color": "#ffffff",
+                "fontSize": 28.8,
+                "lineHeight": 34,
+              }
+            }
+          >
+            Facebook
+          </Text>
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#054995",
+                "borderRadius": 39.6,
+                "flex": 1,
+                "flexDirection": "row",
+                "height": 75.6,
+                "justifyContent": "center",
+                "marginHorizontal": 4,
+                "width": 220,
+              },
+              Object {
+                "backgroundColor": "#e65e52",
+              },
+            ]
+          }
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/icon/gmail.png",
+              }
+            }
+            style={
+              Object {
+                "height": 24.4,
+                "marginRight": 15.4,
+                "width": 32.6,
+              }
+            }
+          />
+          <Text
+            style={
+              Object {
+                "color": "#ffffff",
+                "fontSize": 28.8,
+                "lineHeight": 34,
+              }
+            }
+          >
+            Google
+          </Text>
+        </TouchableOpacity>
+      </View>
+      <View
+        style={
+          Object {
+            "marginHorizontal": 40,
+            "marginTop": 13.8,
+          }
+        }
+      />
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+      >
+        <Text
+          style={
+            Object {
+              "color": "#3e454f",
+              "fontSize": 30,
+              "lineHeight": 36,
+              "marginBottom": 61,
+              "marginTop": 20,
+              "textAlign": "center",
+            }
+          }
+        >
+          Skip & Continue as Guest
+        </Text>
+      </TouchableOpacity>
+    </View>
+    <ApplicationLoader
+      isFetching={false}
+    />
+    <CustomErrorModal
+      hideErrorModal={[Function]}
+      isShowError={false}
+      message=""
+      showModal={false}
+    />
+  </SafeAreaView>
+</KeyboardAwareScrollViewMock>
+`;

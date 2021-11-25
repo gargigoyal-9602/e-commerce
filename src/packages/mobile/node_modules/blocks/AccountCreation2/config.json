@@ -1,0 +1,65 @@
+{
+  "id": "AccountCreation2",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/AccountCreation2",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "AccountCreation2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "AccountCreation2": {
+        "file": "AccountCreation2.tsx",
+        "extends": "AccountCreation2Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "AccountCreation2Controller",
+            "path": "./AccountCreation2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./AccountCreation2Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "AccountCreation2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "AccountCreation2Block": {
+        "file": "AccountCreation2Block.tsx",
+        "extends": "AccountCreation2Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "AccountCreation2Controller",
+            "path": "./AccountCreation2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./AccountCreation2Controller"
+          }
+        ]
+      }
+    }
+  }
+}

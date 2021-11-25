@@ -1,0 +1,65 @@
+{
+  "id": "DiscountsOffers",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/DiscountsOffers",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "DiscountsOffers"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "DiscountsOffers": {
+        "file": "DiscountsOffers.tsx",
+        "extends": "DiscountsOffersController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "DiscountsOffersController",
+            "path": "./DiscountsOffersController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./DiscountsOffersController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "DiscountsOffers"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "DiscountsOffersBlock": {
+        "file": "DiscountsOffersBlock.tsx",
+        "extends": "DiscountsOffersController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "DiscountsOffersController",
+            "path": "./DiscountsOffersController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./DiscountsOffersController"
+          }
+        ]
+      }
+    }
+  }
+}

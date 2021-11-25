@@ -1,0 +1,29 @@
+{
+  "id": "studio-store-ecommerce-core",
+  "verion": "0.0.1",
+  "status": "StudioStoreEcommerce",
+  "path": "./packages/blocks/studio-store-ecommerce-core",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+        "studio-store-ecommerce-theme",
+        "studio-store-ecommerce-translations"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {}
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+        "studio-store-ecommerce-theme",
+        "studio-store-ecommerce-translations"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {}
+  }
+}

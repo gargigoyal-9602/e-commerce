@@ -1,0 +1,46 @@
+{
+  "id": "search",
+  "verion": "0.0.1",
+  "status": "StudioStoreEcommerce",
+  "path": "./packages/blocks/search",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Search"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "studio-store-ecommerce-core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Search": {
+        "file": "Search.tsx",
+        "extends": "SearchController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "SearchController",
+            "path": "./SearchController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./SearchController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "studio-store-ecommerce-core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {}
+  }
+}

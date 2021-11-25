@@ -1,0 +1,1 @@
+export const orderStatucheck = require('../assets/statuss-check.png');

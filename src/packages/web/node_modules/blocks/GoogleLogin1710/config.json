@@ -1,0 +1,65 @@
+{
+  "id": "GoogleLogin1710",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/GoogleLogin1710",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "GoogleLogin1710"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "GoogleLogin1710": {
+        "file": "GoogleLogin1710.tsx",
+        "extends": "GoogleLogin1710Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "GoogleLogin1710Controller",
+            "path": "./GoogleLogin1710Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./GoogleLogin1710Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "GoogleLogin1710"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "GoogleLogin1710Block": {
+        "file": "GoogleLogin1710Block.tsx",
+        "extends": "GoogleLogin1710Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "GoogleLogin1710Controller",
+            "path": "./GoogleLogin1710Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./GoogleLogin1710Controller"
+          }
+        ]
+      }
+    }
+  }
+}

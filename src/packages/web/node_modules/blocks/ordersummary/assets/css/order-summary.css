@@ -1,0 +1,26 @@
+input[type=radio] {
+  border: 0px;
+  width: 24px;
+  height: 24px;
+}
+
+.payment-options {
+  font-family: GTWalsheimPro;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.15;
+  text-align: left;
+  color: #3e454f;
+  margin: 30px 0px;
+}
+
+.option {
+  font-family: GTWalsheimPro;
+  line-height: 1.13;
+  text-align: left;
+  color: #3e454f;
+  font-size: 1.3em;
+}
+.radio-container {
+  margin-bottom: 90px;
+}

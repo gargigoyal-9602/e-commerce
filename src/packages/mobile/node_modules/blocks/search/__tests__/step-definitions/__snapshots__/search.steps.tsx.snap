@@ -1,0 +1,199 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`search User navigates to search 1`] = `
+<SafeAreaView
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "flex": 1,
+    }
+  }
+>
+  <FocusAwareStatusBar
+    backgroundColor="#ffffff"
+    barStyle="dark-content"
+    isFocused={true}
+  />
+  <View
+    style={
+      Object {
+        "backgroundColor": "#ffffff",
+        "height": 50,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "backgroundColor": "#ffffff",
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      autoFocus={false}
+      onChangeText={[Function]}
+      placeholder="Search here.."
+      placeholderTextColor="#3e454f"
+      rejectResponderTermination={true}
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderColor": "#FF9800",
+          "fontFamily": "GTWalsheimPro-Medium",
+          "fontSize": 44,
+          "height": 100,
+          "lineHeight": 50,
+          "marginLeft": 40,
+          "textAlign": "left",
+        }
+      }
+      underlineColorAndroid="transparent"
+      value=""
+    />
+  </View>
+  <ScrollViewMock>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "flex": 1,
+          "paddingVertical": 12,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ffffff",
+            "flex": 1,
+            "paddingVertical": 12,
+          }
+        }
+      >
+        <FlatList
+          data={Array []}
+          disableVirtualization={false}
+          horizontal={true}
+          initialNumToRender={10}
+          keyExtractor={[Function]}
+          maxToRenderPerBatch={10}
+          numColumns={1}
+          onEndReachedThreshold={2}
+          removeClippedSubviews={false}
+          renderItem={[Function]}
+          scrollEventThrottle={50}
+          showsHorizontalScrollIndicator={false}
+          updateCellsBatchingPeriod={50}
+          windowSize={21}
+        />
+      </View>
+    </View>
+  </ScrollViewMock>
+  <CustomErrorModal
+    hideErrorModal={[Function]}
+    isShowError={false}
+    message=""
+    showModal={false}
+  />
+</SafeAreaView>
+`;
+
+exports[`search User navigates to search 2`] = `
+<SafeAreaView
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "flex": 1,
+    }
+  }
+>
+  <FocusAwareStatusBar
+    backgroundColor="#ffffff"
+    barStyle="dark-content"
+    isFocused={true}
+  />
+  <View
+    style={
+      Object {
+        "backgroundColor": "#ffffff",
+        "height": 50,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "backgroundColor": "#ffffff",
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      autoFocus={false}
+      onChangeText={[Function]}
+      placeholder="Search here.."
+      placeholderTextColor="#3e454f"
+      rejectResponderTermination={true}
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderColor": "#FF9800",
+          "fontFamily": "GTWalsheimPro-Medium",
+          "fontSize": 44,
+          "height": 100,
+          "lineHeight": 50,
+          "marginLeft": 40,
+          "textAlign": "left",
+        }
+      }
+      underlineColorAndroid="transparent"
+      value=""
+    />
+  </View>
+  <ScrollViewMock>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "flex": 1,
+          "paddingVertical": 12,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ffffff",
+            "flex": 1,
+            "paddingVertical": 12,
+          }
+        }
+      >
+        <FlatList
+          data={Array []}
+          disableVirtualization={false}
+          horizontal={true}
+          initialNumToRender={10}
+          keyExtractor={[Function]}
+          maxToRenderPerBatch={10}
+          numColumns={1}
+          onEndReachedThreshold={2}
+          removeClippedSubviews={false}
+          renderItem={[Function]}
+          scrollEventThrottle={50}
+          showsHorizontalScrollIndicator={false}
+          updateCellsBatchingPeriod={50}
+          windowSize={21}
+        />
+      </View>
+    </View>
+  </ScrollViewMock>
+  <CustomErrorModal
+    hideErrorModal={[Function]}
+    isShowError={false}
+    message=""
+    showModal={false}
+  />
+</SafeAreaView>
+`;

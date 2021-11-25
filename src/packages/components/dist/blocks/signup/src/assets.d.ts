@@ -1,0 +1,11 @@
+export declare const imgEmailIcon: any;
+export declare const imgPasswordIcon: any;
+export declare const imgPasswordShowIcon: any;
+export declare const imgPasswordHideIcon: any;
+export declare const imgLoginSuccess: any;
+export declare const imgFullName: any;
+export declare const imgPhoneIcon: any;
+export declare const crossIcon: any;
+export declare const facebook: any;
+export declare const google: any;
+export declare const apple: any;

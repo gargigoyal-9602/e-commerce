@@ -1,0 +1,39 @@
+.card-details .rccs {
+  margin: 0;
+  width:100%;
+}
+.card-details .rccs .rccs__card{
+  width: 100%;
+}
+
+.card-details {
+  font-family: GTWalsheimPro;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.15;
+  letter-spacing: normal;
+  text-align: left;
+  color: #3e454f;
+  margin-bottom: 30px;
+}
+
+.stripe-btn button {
+  /* background: var(--button-primary) !important; */
+  background-color: var(--color-ButtonBackRegular) !important;
+  color: var(--color-ButtonTextRegular);
+  cursor: pointer;
+}
+
+.stripe-btn button:hover{
+  background-color: var(--color-ButtonBackHover) !important;
+  color: var(--color-ButtonTextHover) !important;
+}
+
+.stripe-label {
+  font-family: GTWalsheimPro;
+  line-height: 1.13;
+  color: #8b8f95;
+  font-size: 16px;
+}

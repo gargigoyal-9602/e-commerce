@@ -1,0 +1,3238 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`orderdetailview User navigates to orderdetailview 1`] = `
+<SafeAreaView
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "flex": 1,
+      "marginBottom": 32,
+    }
+  }
+>
+  <FocusAwareStatusBar
+    backgroundColor="#ffffff"
+    barStyle="dark-content"
+    isFocused={true}
+  />
+  <TopHeader
+    headerLeftIconName={
+      Object {
+        "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/header/backIcon.png",
+      }
+    }
+    headerLeftIconStyle={
+      Object {
+        "height": 20,
+        "resizeMode": "contain",
+        "width": 24,
+      }
+    }
+    headerRightIcons={
+      Array [
+        Object {
+          "cartHasProductFlag": false,
+          "onPress": [Function],
+          "src": Object {
+            "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/Profile/cartBlack.png",
+          },
+          "style": Object {
+            "marginLeft": 70,
+            "resizeMode": "contain",
+          },
+        },
+      ]
+    }
+    headerStyle={Object {}}
+    headerTitle="My Order"
+    headerTitleStyle={Object {}}
+    headerTitleViewStyle={
+      Object {
+        "paddingLeft": "4%",
+      }
+    }
+    navigation={
+      Object {
+        "addListener": [MockFunction] {
+          "calls": Array [
+            Array [
+              "willFocus",
+              [Function],
+            ],
+            Array [
+              "willFocus",
+              [Function],
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+        "navigate": [MockFunction],
+        "state": Object {
+          "params": Object {
+            "mainOrderData": Object {},
+            "orderData": Object {},
+          },
+        },
+      }
+    }
+    onPressLeft={[Function]}
+  />
+  <ScrollViewMock>
+    <Component
+      animationType="slide"
+      hardwareAccelerated={false}
+      onRequestClose={[Function]}
+      transparent={true}
+      visible={false}
+    >
+      <TouchableOpacity
+        activeOpacity={1}
+        onPress={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "rgba(34,34,34, 0.8)",
+            "flex": 1,
+            "justifyContent": "center",
+          }
+        }
+        testID="buttonCancelOrderModalContent"
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderRadius": 16,
+              "width": 572,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#3e454f",
+                "fontFamily": "GTWalsheimPro-Medium",
+                "fontSize": 36,
+                "lineHeight": 40,
+                "marginTop": 31,
+                "textAlign": "center",
+              }
+            }
+          >
+            Cancel Order
+          </Text>
+          <Text
+            style={
+              Object {
+                "alignSelf": "center",
+                "color": "#3e454f",
+                "fontFamily": "GTWalsheimPro-Regular",
+                "fontSize": 30,
+                "lineHeight": 36,
+                "marginTop": 23,
+                "opacity": 0.8,
+                "textAlign": "center",
+                "width": 442,
+              }
+            }
+          >
+            Are you sure you want to cancel order ?
+          </Text>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "borderTopColor": "#d8d8d8",
+                "borderTopWidth": 1,
+                "flexDirection": "row",
+                "justifyContent": "space-around",
+                "marginBottom": 12.4,
+                "marginTop": 30,
+                "paddingTop": 7.5,
+              }
+            }
+          >
+            <TouchableOpacity
+              activeOpacity={0.2}
+              onPress={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                }
+              }
+              testID="buttonCancelOrder"
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#3e454f",
+                    "fontFamily": "GTWalsheimPro-Regular",
+                    "fontSize": 26,
+                    "lineHeight": 38,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                Cancel
+              </Text>
+            </TouchableOpacity>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#1809b8",
+                  "height": 110,
+                  "marginBottom": 12.7,
+                  "opacity": 0.5,
+                  "width": 2,
+                }
+              }
+            />
+            <TouchableOpacity
+              activeOpacity={0.2}
+              onPress={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                }
+              }
+              testID="buttonConfirmOrder"
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#3e454f",
+                    "fontFamily": "GTWalsheimPro-Regular",
+                    "fontSize": 26,
+                    "lineHeight": 38,
+                    "opacity": 0.8,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                Yes, Confirm
+              </Text>
+            </TouchableOpacity>
+          </View>
+        </View>
+      </TouchableOpacity>
+    </Component>
+    <Component
+      animationType="slide"
+      hardwareAccelerated={false}
+      onRequestClose={[Function]}
+      transparent={true}
+      visible={false}
+    >
+      <KeyboardAwareScrollViewMock
+        contentContainerStyle={
+          Object {
+            "flex": 1,
+          }
+        }
+        enableAutomaticScroll={true}
+        enableOnAndroid={false}
+        enableResetScrollToCoords={true}
+        extraHeight={75}
+        extraScrollHeight={0}
+        keyboardOpeningTime={250}
+        viewIsInsideTabBar={false}
+      >
+        <TouchableOpacity
+          activeOpacity={1}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "rgba(34,34,34, 0.8)",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+          testID="buttonRatingContainer"
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#ffffff",
+                "borderRadius": 16,
+                "width": 572,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#3e454f",
+                  "fontFamily": "GTWalsheimPro-Medium",
+                  "fontSize": 36,
+                  "lineHeight": 40,
+                  "marginTop": 31,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Rate and Review
+            </Text>
+            <Text
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "color": "#3e454f",
+                  "fontFamily": "GTWalsheimPro-Regular",
+                  "fontSize": 30,
+                  "lineHeight": 36,
+                  "marginTop": 23,
+                  "opacity": 0.8,
+                  "textAlign": "center",
+                  "width": 442,
+                }
+              }
+            >
+              Rate our Product
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "marginBottom": 15.2,
+                  "marginHorizontal": 126.8,
+                  "marginTop": 12.2,
+                }
+              }
+            >
+              <TouchableOpacity
+                activeOpacity={0.2}
+                key="rating-item-0"
+                onPress={[Function]}
+              >
+                <Image
+                  source={
+                    Object {
+                      "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/myOrders/selectedStar.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "height": 45.6,
+                      "width": 47.8,
+                    }
+                  }
+                />
+              </TouchableOpacity>
+              <TouchableOpacity
+                activeOpacity={0.2}
+                key="rating-item-1"
+                onPress={[Function]}
+              >
+                <Image
+                  source={
+                    Object {
+                      "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/myOrders/unSelectedStar.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "height": 45.6,
+                      "width": 47.8,
+                    }
+                  }
+                />
+              </TouchableOpacity>
+              <TouchableOpacity
+                activeOpacity={0.2}
+                key="rating-item-2"
+                onPress={[Function]}
+              >
+                <Image
+                  source={
+                    Object {
+                      "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/myOrders/unSelectedStar.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "height": 45.6,
+                      "width": 47.8,
+                    }
+                  }
+                />
+              </TouchableOpacity>
+              <TouchableOpacity
+                activeOpacity={0.2}
+                key="rating-item-3"
+                onPress={[Function]}
+              >
+                <Image
+                  source={
+                    Object {
+                      "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/myOrders/unSelectedStar.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "height": 45.6,
+                      "width": 47.8,
+                    }
+                  }
+                />
+              </TouchableOpacity>
+              <TouchableOpacity
+                activeOpacity={0.2}
+                key="rating-item-4"
+                onPress={[Function]}
+              >
+                <Image
+                  source={
+                    Object {
+                      "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/myOrders/unSelectedStar.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "height": 45.6,
+                      "width": 47.8,
+                    }
+                  }
+                />
+              </TouchableOpacity>
+            </View>
+            <TextInput
+              allowFontScaling={true}
+              multiline={true}
+              onChangeText={[Function]}
+              placeholder="Write detailed review for product .."
+              placeholderTextColor="#3e454f"
+              rejectResponderTermination={true}
+              returnKeyType="done"
+              secureTextEntry={false}
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "borderColor": "#d8d8d8",
+                  "borderRadius": 20,
+                  "borderWidth": 2,
+                  "height": 180,
+                  "marginBottom": 15.8,
+                  "paddingHorizontal": 24,
+                  "paddingTop": 12.8,
+                  "width": 512,
+                }
+              }
+              testID="ratingInput"
+              textAlignVertical="top"
+              underlineColorAndroid="transparent"
+              value=""
+            />
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "borderTopColor": "#d8d8d8",
+                  "borderTopWidth": 1,
+                  "flexDirection": "row",
+                  "justifyContent": "space-around",
+                  "marginBottom": 12.4,
+                  "paddingTop": 7.5,
+                }
+              }
+            >
+              <TouchableOpacity
+                activeOpacity={0.2}
+                onPress={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                  }
+                }
+                testID="buttonRatingCancel"
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#3e454f",
+                      "fontFamily": "GTWalsheimPro-Regular",
+                      "fontSize": 26,
+                      "lineHeight": 38,
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  Cancel
+                </Text>
+              </TouchableOpacity>
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#1809b8",
+                    "height": 110,
+                    "marginBottom": 12.7,
+                    "opacity": 0.5,
+                    "width": 2,
+                  }
+                }
+              />
+              <TouchableOpacity
+                activeOpacity={0.2}
+                onPress={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                  }
+                }
+                testID="buttonRatingSubmit"
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#3e454f",
+                      "fontFamily": "GTWalsheimPro-Regular",
+                      "fontSize": 26,
+                      "lineHeight": 38,
+                      "opacity": 0.8,
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  Submit
+                </Text>
+              </TouchableOpacity>
+            </View>
+          </View>
+        </TouchableOpacity>
+      </KeyboardAwareScrollViewMock>
+    </Component>
+  </ScrollViewMock>
+  <ApplicationLoader
+    isFetching={true}
+  />
+  <CustomErrorModal
+    hideErrorModal={[Function]}
+    isShowError={false}
+    message=""
+    showModal={false}
+  />
+</SafeAreaView>
+`;
+
+exports[`orderdetailview User navigates to orderdetailview 2`] = `
+<SafeAreaView
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "flex": 1,
+      "marginBottom": 32,
+    }
+  }
+>
+  <FocusAwareStatusBar
+    backgroundColor="#ffffff"
+    barStyle="dark-content"
+    isFocused={true}
+  />
+  <TopHeader
+    headerLeftIconName={
+      Object {
+        "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/header/backIcon.png",
+      }
+    }
+    headerLeftIconStyle={
+      Object {
+        "height": 20,
+        "resizeMode": "contain",
+        "width": 24,
+      }
+    }
+    headerRightIcons={
+      Array [
+        Object {
+          "cartHasProductFlag": undefined,
+          "onPress": [Function],
+          "src": Object {
+            "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/Profile/cartBlack.png",
+          },
+          "style": Object {
+            "marginLeft": 70,
+            "resizeMode": "contain",
+          },
+        },
+      ]
+    }
+    headerStyle={Object {}}
+    headerTitle="My Order"
+    headerTitleStyle={Object {}}
+    headerTitleViewStyle={
+      Object {
+        "paddingLeft": "4%",
+      }
+    }
+    navigation={
+      Object {
+        "addListener": [MockFunction] {
+          "calls": Array [
+            Array [
+              "willFocus",
+              [Function],
+            ],
+            Array [
+              "willFocus",
+              [Function],
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+        "navigate": [MockFunction],
+        "state": Object {
+          "params": Object {
+            "mainOrderData": Object {},
+            "orderData": Object {},
+          },
+        },
+      }
+    }
+    onPressLeft={[Function]}
+  />
+  <ScrollViewMock>
+    <Component
+      animationType="slide"
+      hardwareAccelerated={false}
+      onRequestClose={[Function]}
+      transparent={true}
+      visible={false}
+    >
+      <TouchableOpacity
+        activeOpacity={1}
+        onPress={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "rgba(34,34,34, 0.8)",
+            "flex": 1,
+            "justifyContent": "center",
+          }
+        }
+        testID="buttonCancelOrderModalContent"
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderRadius": 16,
+              "width": 572,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#3e454f",
+                "fontFamily": "GTWalsheimPro-Medium",
+                "fontSize": 36,
+                "lineHeight": 40,
+                "marginTop": 31,
+                "textAlign": "center",
+              }
+            }
+          >
+            Cancel Order
+          </Text>
+          <Text
+            style={
+              Object {
+                "alignSelf": "center",
+                "color": "#3e454f",
+                "fontFamily": "GTWalsheimPro-Regular",
+                "fontSize": 30,
+                "lineHeight": 36,
+                "marginTop": 23,
+                "opacity": 0.8,
+                "textAlign": "center",
+                "width": 442,
+              }
+            }
+          >
+            Are you sure you want to cancel order ?
+          </Text>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "borderTopColor": "#d8d8d8",
+                "borderTopWidth": 1,
+                "flexDirection": "row",
+                "justifyContent": "space-around",
+                "marginBottom": 12.4,
+                "marginTop": 30,
+                "paddingTop": 7.5,
+              }
+            }
+          >
+            <TouchableOpacity
+              activeOpacity={0.2}
+              onPress={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                }
+              }
+              testID="buttonCancelOrder"
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#3e454f",
+                    "fontFamily": "GTWalsheimPro-Regular",
+                    "fontSize": 26,
+                    "lineHeight": 38,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                Cancel
+              </Text>
+            </TouchableOpacity>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#1809b8",
+                  "height": 110,
+                  "marginBottom": 12.7,
+                  "opacity": 0.5,
+                  "width": 2,
+                }
+              }
+            />
+            <TouchableOpacity
+              activeOpacity={0.2}
+              onPress={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                }
+              }
+              testID="buttonConfirmOrder"
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#3e454f",
+                    "fontFamily": "GTWalsheimPro-Regular",
+                    "fontSize": 26,
+                    "lineHeight": 38,
+                    "opacity": 0.8,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                Yes, Confirm
+              </Text>
+            </TouchableOpacity>
+          </View>
+        </View>
+      </TouchableOpacity>
+    </Component>
+    <Component
+      animationType="slide"
+      hardwareAccelerated={false}
+      onRequestClose={[Function]}
+      transparent={true}
+      visible={false}
+    >
+      <KeyboardAwareScrollViewMock
+        contentContainerStyle={
+          Object {
+            "flex": 1,
+          }
+        }
+        enableAutomaticScroll={true}
+        enableOnAndroid={false}
+        enableResetScrollToCoords={true}
+        extraHeight={75}
+        extraScrollHeight={0}
+        keyboardOpeningTime={250}
+        viewIsInsideTabBar={false}
+      >
+        <TouchableOpacity
+          activeOpacity={1}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "rgba(34,34,34, 0.8)",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+          testID="buttonRatingContainer"
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#ffffff",
+                "borderRadius": 16,
+                "width": 572,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#3e454f",
+                  "fontFamily": "GTWalsheimPro-Medium",
+                  "fontSize": 36,
+                  "lineHeight": 40,
+                  "marginTop": 31,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Rate and Review
+            </Text>
+            <Text
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "color": "#3e454f",
+                  "fontFamily": "GTWalsheimPro-Regular",
+                  "fontSize": 30,
+                  "lineHeight": 36,
+                  "marginTop": 23,
+                  "opacity": 0.8,
+                  "textAlign": "center",
+                  "width": 442,
+                }
+              }
+            >
+              Rate our Product
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "marginBottom": 15.2,
+                  "marginHorizontal": 126.8,
+                  "marginTop": 12.2,
+                }
+              }
+            >
+              <TouchableOpacity
+                activeOpacity={0.2}
+                key="rating-item-0"
+                onPress={[Function]}
+              >
+                <Image
+                  source={
+                    Object {
+                      "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/myOrders/selectedStar.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "height": 45.6,
+                      "width": 47.8,
+                    }
+                  }
+                />
+              </TouchableOpacity>
+              <TouchableOpacity
+                activeOpacity={0.2}
+                key="rating-item-1"
+                onPress={[Function]}
+              >
+                <Image
+                  source={
+                    Object {
+                      "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/myOrders/unSelectedStar.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "height": 45.6,
+                      "width": 47.8,
+                    }
+                  }
+                />
+              </TouchableOpacity>
+              <TouchableOpacity
+                activeOpacity={0.2}
+                key="rating-item-2"
+                onPress={[Function]}
+              >
+                <Image
+                  source={
+                    Object {
+                      "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/myOrders/unSelectedStar.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "height": 45.6,
+                      "width": 47.8,
+                    }
+                  }
+                />
+              </TouchableOpacity>
+              <TouchableOpacity
+                activeOpacity={0.2}
+                key="rating-item-3"
+                onPress={[Function]}
+              >
+                <Image
+                  source={
+                    Object {
+                      "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/myOrders/unSelectedStar.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "height": 45.6,
+                      "width": 47.8,
+                    }
+                  }
+                />
+              </TouchableOpacity>
+              <TouchableOpacity
+                activeOpacity={0.2}
+                key="rating-item-4"
+                onPress={[Function]}
+              >
+                <Image
+                  source={
+                    Object {
+                      "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/myOrders/unSelectedStar.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "height": 45.6,
+                      "width": 47.8,
+                    }
+                  }
+                />
+              </TouchableOpacity>
+            </View>
+            <TextInput
+              allowFontScaling={true}
+              multiline={true}
+              onChangeText={[Function]}
+              placeholder="Write detailed review for product .."
+              placeholderTextColor="#3e454f"
+              rejectResponderTermination={true}
+              returnKeyType="done"
+              secureTextEntry={false}
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "borderColor": "#d8d8d8",
+                  "borderRadius": 20,
+                  "borderWidth": 2,
+                  "height": 180,
+                  "marginBottom": 15.8,
+                  "paddingHorizontal": 24,
+                  "paddingTop": 12.8,
+                  "width": 512,
+                }
+              }
+              testID="ratingInput"
+              textAlignVertical="top"
+              underlineColorAndroid="transparent"
+              value="test rating"
+            />
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "borderTopColor": "#d8d8d8",
+                  "borderTopWidth": 1,
+                  "flexDirection": "row",
+                  "justifyContent": "space-around",
+                  "marginBottom": 12.4,
+                  "paddingTop": 7.5,
+                }
+              }
+            >
+              <TouchableOpacity
+                activeOpacity={0.2}
+                onPress={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                  }
+                }
+                testID="buttonRatingCancel"
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#3e454f",
+                      "fontFamily": "GTWalsheimPro-Regular",
+                      "fontSize": 26,
+                      "lineHeight": 38,
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  Cancel
+                </Text>
+              </TouchableOpacity>
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#1809b8",
+                    "height": 110,
+                    "marginBottom": 12.7,
+                    "opacity": 0.5,
+                    "width": 2,
+                  }
+                }
+              />
+              <TouchableOpacity
+                activeOpacity={0.2}
+                onPress={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                  }
+                }
+                testID="buttonRatingSubmit"
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#3e454f",
+                      "fontFamily": "GTWalsheimPro-Regular",
+                      "fontSize": 26,
+                      "lineHeight": 38,
+                      "opacity": 0.8,
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  Submit
+                </Text>
+              </TouchableOpacity>
+            </View>
+          </View>
+        </TouchableOpacity>
+      </KeyboardAwareScrollViewMock>
+    </Component>
+  </ScrollViewMock>
+  <ApplicationLoader
+    isFetching={true}
+  />
+  <CustomErrorModal
+    hideErrorModal={[Function]}
+    isShowError={false}
+    message=""
+    showModal={false}
+  />
+</SafeAreaView>
+`;
+
+exports[`orderdetailview User navigates to orderdetailview 3`] = `
+<SafeAreaView
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "flex": 1,
+      "marginBottom": 32,
+    }
+  }
+>
+  <FocusAwareStatusBar
+    backgroundColor="#ffffff"
+    barStyle="dark-content"
+    isFocused={true}
+  />
+  <TopHeader
+    headerLeftIconName={
+      Object {
+        "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/header/backIcon.png",
+      }
+    }
+    headerLeftIconStyle={
+      Object {
+        "height": 20,
+        "resizeMode": "contain",
+        "width": 24,
+      }
+    }
+    headerRightIcons={
+      Array [
+        Object {
+          "cartHasProductFlag": undefined,
+          "onPress": [Function],
+          "src": Object {
+            "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/Profile/cartBlack.png",
+          },
+          "style": Object {
+            "marginLeft": 70,
+            "resizeMode": "contain",
+          },
+        },
+      ]
+    }
+    headerStyle={Object {}}
+    headerTitle="My Order"
+    headerTitleStyle={Object {}}
+    headerTitleViewStyle={
+      Object {
+        "paddingLeft": "4%",
+      }
+    }
+    navigation={
+      Object {
+        "addListener": [MockFunction] {
+          "calls": Array [
+            Array [
+              "willFocus",
+              [Function],
+            ],
+            Array [
+              "willFocus",
+              [Function],
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+        "navigate": [MockFunction],
+        "state": Object {
+          "params": Object {
+            "mainOrderData": Object {},
+            "orderData": Object {},
+          },
+        },
+      }
+    }
+    onPressLeft={[Function]}
+  />
+  <ScrollViewMock>
+    <Component
+      animationType="slide"
+      hardwareAccelerated={false}
+      onRequestClose={[Function]}
+      transparent={true}
+      visible={false}
+    >
+      <TouchableOpacity
+        activeOpacity={1}
+        onPress={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "rgba(34,34,34, 0.8)",
+            "flex": 1,
+            "justifyContent": "center",
+          }
+        }
+        testID="buttonCancelOrderModalContent"
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderRadius": 16,
+              "width": 572,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#3e454f",
+                "fontFamily": "GTWalsheimPro-Medium",
+                "fontSize": 36,
+                "lineHeight": 40,
+                "marginTop": 31,
+                "textAlign": "center",
+              }
+            }
+          >
+            Cancel Order
+          </Text>
+          <Text
+            style={
+              Object {
+                "alignSelf": "center",
+                "color": "#3e454f",
+                "fontFamily": "GTWalsheimPro-Regular",
+                "fontSize": 30,
+                "lineHeight": 36,
+                "marginTop": 23,
+                "opacity": 0.8,
+                "textAlign": "center",
+                "width": 442,
+              }
+            }
+          >
+            Are you sure you want to cancel order ?
+          </Text>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "borderTopColor": "#d8d8d8",
+                "borderTopWidth": 1,
+                "flexDirection": "row",
+                "justifyContent": "space-around",
+                "marginBottom": 12.4,
+                "marginTop": 30,
+                "paddingTop": 7.5,
+              }
+            }
+          >
+            <TouchableOpacity
+              activeOpacity={0.2}
+              onPress={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                }
+              }
+              testID="buttonCancelOrder"
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#3e454f",
+                    "fontFamily": "GTWalsheimPro-Regular",
+                    "fontSize": 26,
+                    "lineHeight": 38,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                Cancel
+              </Text>
+            </TouchableOpacity>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#1809b8",
+                  "height": 110,
+                  "marginBottom": 12.7,
+                  "opacity": 0.5,
+                  "width": 2,
+                }
+              }
+            />
+            <TouchableOpacity
+              activeOpacity={0.2}
+              onPress={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                }
+              }
+              testID="buttonConfirmOrder"
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#3e454f",
+                    "fontFamily": "GTWalsheimPro-Regular",
+                    "fontSize": 26,
+                    "lineHeight": 38,
+                    "opacity": 0.8,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                Yes, Confirm
+              </Text>
+            </TouchableOpacity>
+          </View>
+        </View>
+      </TouchableOpacity>
+    </Component>
+    <Component
+      animationType="slide"
+      hardwareAccelerated={false}
+      onRequestClose={[Function]}
+      transparent={true}
+      visible={false}
+    >
+      <KeyboardAwareScrollViewMock
+        contentContainerStyle={
+          Object {
+            "flex": 1,
+          }
+        }
+        enableAutomaticScroll={true}
+        enableOnAndroid={false}
+        enableResetScrollToCoords={true}
+        extraHeight={75}
+        extraScrollHeight={0}
+        keyboardOpeningTime={250}
+        viewIsInsideTabBar={false}
+      >
+        <TouchableOpacity
+          activeOpacity={1}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "rgba(34,34,34, 0.8)",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+          testID="buttonRatingContainer"
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#ffffff",
+                "borderRadius": 16,
+                "width": 572,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#3e454f",
+                  "fontFamily": "GTWalsheimPro-Medium",
+                  "fontSize": 36,
+                  "lineHeight": 40,
+                  "marginTop": 31,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Rate and Review
+            </Text>
+            <Text
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "color": "#3e454f",
+                  "fontFamily": "GTWalsheimPro-Regular",
+                  "fontSize": 30,
+                  "lineHeight": 36,
+                  "marginTop": 23,
+                  "opacity": 0.8,
+                  "textAlign": "center",
+                  "width": 442,
+                }
+              }
+            >
+              Rate our Product
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "marginBottom": 15.2,
+                  "marginHorizontal": 126.8,
+                  "marginTop": 12.2,
+                }
+              }
+            >
+              <TouchableOpacity
+                activeOpacity={0.2}
+                key="rating-item-0"
+                onPress={[Function]}
+              >
+                <Image
+                  source={
+                    Object {
+                      "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/myOrders/selectedStar.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "height": 45.6,
+                      "width": 47.8,
+                    }
+                  }
+                />
+              </TouchableOpacity>
+              <TouchableOpacity
+                activeOpacity={0.2}
+                key="rating-item-1"
+                onPress={[Function]}
+              >
+                <Image
+                  source={
+                    Object {
+                      "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/myOrders/unSelectedStar.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "height": 45.6,
+                      "width": 47.8,
+                    }
+                  }
+                />
+              </TouchableOpacity>
+              <TouchableOpacity
+                activeOpacity={0.2}
+                key="rating-item-2"
+                onPress={[Function]}
+              >
+                <Image
+                  source={
+                    Object {
+                      "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/myOrders/unSelectedStar.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "height": 45.6,
+                      "width": 47.8,
+                    }
+                  }
+                />
+              </TouchableOpacity>
+              <TouchableOpacity
+                activeOpacity={0.2}
+                key="rating-item-3"
+                onPress={[Function]}
+              >
+                <Image
+                  source={
+                    Object {
+                      "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/myOrders/unSelectedStar.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "height": 45.6,
+                      "width": 47.8,
+                    }
+                  }
+                />
+              </TouchableOpacity>
+              <TouchableOpacity
+                activeOpacity={0.2}
+                key="rating-item-4"
+                onPress={[Function]}
+              >
+                <Image
+                  source={
+                    Object {
+                      "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/myOrders/unSelectedStar.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "height": 45.6,
+                      "width": 47.8,
+                    }
+                  }
+                />
+              </TouchableOpacity>
+            </View>
+            <TextInput
+              allowFontScaling={true}
+              multiline={true}
+              onChangeText={[Function]}
+              placeholder="Write detailed review for product .."
+              placeholderTextColor="#3e454f"
+              rejectResponderTermination={true}
+              returnKeyType="done"
+              secureTextEntry={false}
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "borderColor": "#d8d8d8",
+                  "borderRadius": 20,
+                  "borderWidth": 2,
+                  "height": 180,
+                  "marginBottom": 15.8,
+                  "paddingHorizontal": 24,
+                  "paddingTop": 12.8,
+                  "width": 512,
+                }
+              }
+              testID="ratingInput"
+              textAlignVertical="top"
+              underlineColorAndroid="transparent"
+              value="test rating"
+            />
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "borderTopColor": "#d8d8d8",
+                  "borderTopWidth": 1,
+                  "flexDirection": "row",
+                  "justifyContent": "space-around",
+                  "marginBottom": 12.4,
+                  "paddingTop": 7.5,
+                }
+              }
+            >
+              <TouchableOpacity
+                activeOpacity={0.2}
+                onPress={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                  }
+                }
+                testID="buttonRatingCancel"
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#3e454f",
+                      "fontFamily": "GTWalsheimPro-Regular",
+                      "fontSize": 26,
+                      "lineHeight": 38,
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  Cancel
+                </Text>
+              </TouchableOpacity>
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#1809b8",
+                    "height": 110,
+                    "marginBottom": 12.7,
+                    "opacity": 0.5,
+                    "width": 2,
+                  }
+                }
+              />
+              <TouchableOpacity
+                activeOpacity={0.2}
+                onPress={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                  }
+                }
+                testID="buttonRatingSubmit"
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#3e454f",
+                      "fontFamily": "GTWalsheimPro-Regular",
+                      "fontSize": 26,
+                      "lineHeight": 38,
+                      "opacity": 0.8,
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  Submit
+                </Text>
+              </TouchableOpacity>
+            </View>
+          </View>
+        </TouchableOpacity>
+      </KeyboardAwareScrollViewMock>
+    </Component>
+  </ScrollViewMock>
+  <ApplicationLoader
+    isFetching={true}
+  />
+  <CustomErrorModal
+    hideErrorModal={[Function]}
+    isShowError={false}
+    message=""
+    showModal={false}
+  />
+</SafeAreaView>
+`;
+
+exports[`orderdetailview User navigates to orderdetailview 4`] = `
+<SafeAreaView
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "flex": 1,
+      "marginBottom": 32,
+    }
+  }
+>
+  <FocusAwareStatusBar
+    backgroundColor="#ffffff"
+    barStyle="dark-content"
+    isFocused={true}
+  />
+  <TopHeader
+    headerLeftIconName={
+      Object {
+        "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/header/backIcon.png",
+      }
+    }
+    headerLeftIconStyle={
+      Object {
+        "height": 20,
+        "resizeMode": "contain",
+        "width": 24,
+      }
+    }
+    headerRightIcons={
+      Array [
+        Object {
+          "cartHasProductFlag": undefined,
+          "onPress": [Function],
+          "src": Object {
+            "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/Profile/cartBlack.png",
+          },
+          "style": Object {
+            "marginLeft": 70,
+            "resizeMode": "contain",
+          },
+        },
+      ]
+    }
+    headerStyle={Object {}}
+    headerTitle="My Order"
+    headerTitleStyle={Object {}}
+    headerTitleViewStyle={
+      Object {
+        "paddingLeft": "4%",
+      }
+    }
+    navigation={
+      Object {
+        "addListener": [MockFunction] {
+          "calls": Array [
+            Array [
+              "willFocus",
+              [Function],
+            ],
+            Array [
+              "willFocus",
+              [Function],
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+        "navigate": [MockFunction],
+        "state": Object {
+          "params": Object {
+            "mainOrderData": Object {},
+            "orderData": Object {},
+          },
+        },
+      }
+    }
+    onPressLeft={[Function]}
+  />
+  <ScrollViewMock>
+    <View
+      style={Object {}}
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "marginTop": 20,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "marginLeft": 22,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#3e454f",
+                "fontFamily": "GTWalsheimPro-Medium",
+                "fontSize": 26,
+                "lineHeight": 38,
+                "opacity": 0.89,
+              }
+            }
+          >
+            Order Number
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#3e454f",
+                "fontFamily": "GTWalsheimPro-Medium",
+                "fontSize": 26,
+                "lineHeight": 38,
+                "opacity": 0.89,
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "flex-end",
+              "marginRight": 22,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#3e454f",
+                "fontFamily": "GTWalsheimPro-Medium",
+                "fontSize": 26,
+                "lineHeight": 38,
+                "opacity": 0.89,
+              }
+            }
+          >
+            Order Date
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#3e454f",
+                "fontFamily": "GTWalsheimPro-Medium",
+                "fontSize": 26,
+                "lineHeight": 38,
+                "opacity": 0.89,
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignSelf": "center",
+          "backgroundColor": "#ffffff",
+          "borderRadius": 8,
+          "marginTop": 8,
+          "paddingBottom": 12,
+          "width": 706,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "paddingTop": 16,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": undefined,
+            }
+          }
+          style={
+            Object {
+              "height": 130,
+              "marginLeft": 18,
+              "width": 130,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "marginLeft": 22,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "marginLeft": 22,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#3e454f",
+                  "fontFamily": "GTWalsheimPro-Regular",
+                  "fontSize": 34,
+                  "lineHeight": 38,
+                  "width": 340,
+                }
+              }
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#3e454f",
+                  "fontFamily": "GTWalsheimPro-Regular",
+                  "fontSize": 26,
+                  "lineHeight": 38,
+                  "opacity": 0.4,
+                }
+              }
+            >
+              Quantity :
+               
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "marginLeft": 22,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#3e454f",
+                  "fontFamily": "GTWalsheimPro-Regular",
+                  "fontSize": 26,
+                  "lineHeight": 38,
+                  "marginTop": 6,
+                  "opacity": 0.4,
+                }
+              }
+            >
+              Ordered on: 
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#3e454f",
+                  "fontFamily": "GTWalsheimPro-Regular",
+                  "fontSize": 26,
+                  "lineHeight": 38,
+                  "marginLeft": 8,
+                  "marginTop": 6,
+                  "opacity": 0.89,
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginLeft": 22,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": undefined,
+                  "fontFamily": "GTWalsheimPro-Medium",
+                  "fontSize": 30,
+                  "lineHeight": 36,
+                  "marginTop": 7,
+                  "opacity": 0.9,
+                }
+              }
+            >
+              £
+               
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#43b7a8",
+                    "borderRadius": 7,
+                    "height": 14,
+                    "width": 14,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "color": "#1809b8",
+                    "fontFamily": "GTWalsheimPro-Regular",
+                    "fontSize": 30,
+                    "lineHeight": 36,
+                    "marginLeft": 22,
+                    "opacity": 0.9,
+                  }
+                }
+              />
+            </View>
+          </View>
+          <Text
+            style={
+              Object {
+                "color": "#3e454f",
+                "fontFamily": "GTWalsheimPro-Medium",
+                "fontSize": 30,
+                "lineHeight": 36,
+                "marginLeft": 22,
+                "marginTop": 7,
+                "opacity": 0.9,
+              }
+            }
+          >
+            Total Amount: 
+            £
+             
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#1809b8",
+                "fontFamily": "GTWalsheimPro-Medium",
+                "fontSize": 24,
+                "lineHeight": 28,
+                "marginLeft": 22,
+                "marginTop": 6.2,
+                "opacity": 0.9,
+                "textDecorationLine": "underline",
+              }
+            }
+          >
+            Tracking ID:
+             
+             
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-around",
+          }
+        }
+      />
+    </View>
+    <Component
+      animationType="slide"
+      hardwareAccelerated={false}
+      onRequestClose={[Function]}
+      transparent={true}
+      visible={false}
+    >
+      <TouchableOpacity
+        activeOpacity={1}
+        onPress={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "rgba(34,34,34, 0.8)",
+            "flex": 1,
+            "justifyContent": "center",
+          }
+        }
+        testID="buttonCancelOrderModalContent"
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderRadius": 16,
+              "width": 572,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#3e454f",
+                "fontFamily": "GTWalsheimPro-Medium",
+                "fontSize": 36,
+                "lineHeight": 40,
+                "marginTop": 31,
+                "textAlign": "center",
+              }
+            }
+          >
+            Cancel Order
+          </Text>
+          <Text
+            style={
+              Object {
+                "alignSelf": "center",
+                "color": "#3e454f",
+                "fontFamily": "GTWalsheimPro-Regular",
+                "fontSize": 30,
+                "lineHeight": 36,
+                "marginTop": 23,
+                "opacity": 0.8,
+                "textAlign": "center",
+                "width": 442,
+              }
+            }
+          >
+            Are you sure you want to cancel order ?
+          </Text>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "borderTopColor": "#d8d8d8",
+                "borderTopWidth": 1,
+                "flexDirection": "row",
+                "justifyContent": "space-around",
+                "marginBottom": 12.4,
+                "marginTop": 30,
+                "paddingTop": 7.5,
+              }
+            }
+          >
+            <TouchableOpacity
+              activeOpacity={0.2}
+              onPress={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                }
+              }
+              testID="buttonCancelOrder"
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#3e454f",
+                    "fontFamily": "GTWalsheimPro-Regular",
+                    "fontSize": 26,
+                    "lineHeight": 38,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                Cancel
+              </Text>
+            </TouchableOpacity>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#1809b8",
+                  "height": 110,
+                  "marginBottom": 12.7,
+                  "opacity": 0.5,
+                  "width": 2,
+                }
+              }
+            />
+            <TouchableOpacity
+              activeOpacity={0.2}
+              onPress={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                }
+              }
+              testID="buttonConfirmOrder"
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#3e454f",
+                    "fontFamily": "GTWalsheimPro-Regular",
+                    "fontSize": 26,
+                    "lineHeight": 38,
+                    "opacity": 0.8,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                Yes, Confirm
+              </Text>
+            </TouchableOpacity>
+          </View>
+        </View>
+      </TouchableOpacity>
+    </Component>
+    <Component
+      animationType="slide"
+      hardwareAccelerated={false}
+      onRequestClose={[Function]}
+      transparent={true}
+      visible={false}
+    >
+      <KeyboardAwareScrollViewMock
+        contentContainerStyle={
+          Object {
+            "flex": 1,
+          }
+        }
+        enableAutomaticScroll={true}
+        enableOnAndroid={false}
+        enableResetScrollToCoords={true}
+        extraHeight={75}
+        extraScrollHeight={0}
+        keyboardOpeningTime={250}
+        viewIsInsideTabBar={false}
+      >
+        <TouchableOpacity
+          activeOpacity={1}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "rgba(34,34,34, 0.8)",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+          testID="buttonRatingContainer"
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#ffffff",
+                "borderRadius": 16,
+                "width": 572,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#3e454f",
+                  "fontFamily": "GTWalsheimPro-Medium",
+                  "fontSize": 36,
+                  "lineHeight": 40,
+                  "marginTop": 31,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Rate and Review
+            </Text>
+            <Text
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "color": "#3e454f",
+                  "fontFamily": "GTWalsheimPro-Regular",
+                  "fontSize": 30,
+                  "lineHeight": 36,
+                  "marginTop": 23,
+                  "opacity": 0.8,
+                  "textAlign": "center",
+                  "width": 442,
+                }
+              }
+            >
+              Rate our Product
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "marginBottom": 15.2,
+                  "marginHorizontal": 126.8,
+                  "marginTop": 12.2,
+                }
+              }
+            >
+              <TouchableOpacity
+                activeOpacity={0.2}
+                key="rating-item-0"
+                onPress={[Function]}
+              >
+                <Image
+                  source={
+                    Object {
+                      "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/myOrders/selectedStar.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "height": 45.6,
+                      "width": 47.8,
+                    }
+                  }
+                />
+              </TouchableOpacity>
+              <TouchableOpacity
+                activeOpacity={0.2}
+                key="rating-item-1"
+                onPress={[Function]}
+              >
+                <Image
+                  source={
+                    Object {
+                      "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/myOrders/unSelectedStar.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "height": 45.6,
+                      "width": 47.8,
+                    }
+                  }
+                />
+              </TouchableOpacity>
+              <TouchableOpacity
+                activeOpacity={0.2}
+                key="rating-item-2"
+                onPress={[Function]}
+              >
+                <Image
+                  source={
+                    Object {
+                      "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/myOrders/unSelectedStar.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "height": 45.6,
+                      "width": 47.8,
+                    }
+                  }
+                />
+              </TouchableOpacity>
+              <TouchableOpacity
+                activeOpacity={0.2}
+                key="rating-item-3"
+                onPress={[Function]}
+              >
+                <Image
+                  source={
+                    Object {
+                      "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/myOrders/unSelectedStar.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "height": 45.6,
+                      "width": 47.8,
+                    }
+                  }
+                />
+              </TouchableOpacity>
+              <TouchableOpacity
+                activeOpacity={0.2}
+                key="rating-item-4"
+                onPress={[Function]}
+              >
+                <Image
+                  source={
+                    Object {
+                      "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/myOrders/unSelectedStar.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "height": 45.6,
+                      "width": 47.8,
+                    }
+                  }
+                />
+              </TouchableOpacity>
+            </View>
+            <TextInput
+              allowFontScaling={true}
+              multiline={true}
+              onChangeText={[Function]}
+              placeholder="Write detailed review for product .."
+              placeholderTextColor="#3e454f"
+              rejectResponderTermination={true}
+              returnKeyType="done"
+              secureTextEntry={false}
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "borderColor": "#d8d8d8",
+                  "borderRadius": 20,
+                  "borderWidth": 2,
+                  "height": 180,
+                  "marginBottom": 15.8,
+                  "paddingHorizontal": 24,
+                  "paddingTop": 12.8,
+                  "width": 512,
+                }
+              }
+              testID="ratingInput"
+              textAlignVertical="top"
+              underlineColorAndroid="transparent"
+              value="test rating"
+            />
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "borderTopColor": "#d8d8d8",
+                  "borderTopWidth": 1,
+                  "flexDirection": "row",
+                  "justifyContent": "space-around",
+                  "marginBottom": 12.4,
+                  "paddingTop": 7.5,
+                }
+              }
+            >
+              <TouchableOpacity
+                activeOpacity={0.2}
+                onPress={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                  }
+                }
+                testID="buttonRatingCancel"
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#3e454f",
+                      "fontFamily": "GTWalsheimPro-Regular",
+                      "fontSize": 26,
+                      "lineHeight": 38,
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  Cancel
+                </Text>
+              </TouchableOpacity>
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#1809b8",
+                    "height": 110,
+                    "marginBottom": 12.7,
+                    "opacity": 0.5,
+                    "width": 2,
+                  }
+                }
+              />
+              <TouchableOpacity
+                activeOpacity={0.2}
+                onPress={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                  }
+                }
+                testID="buttonRatingSubmit"
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#3e454f",
+                      "fontFamily": "GTWalsheimPro-Regular",
+                      "fontSize": 26,
+                      "lineHeight": 38,
+                      "opacity": 0.8,
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  Submit
+                </Text>
+              </TouchableOpacity>
+            </View>
+          </View>
+        </TouchableOpacity>
+      </KeyboardAwareScrollViewMock>
+    </Component>
+  </ScrollViewMock>
+  <ApplicationLoader
+    isFetching={false}
+  />
+  <CustomErrorModal
+    hideErrorModal={[Function]}
+    isShowError={false}
+    message=""
+    showModal={false}
+  />
+</SafeAreaView>
+`;
+
+exports[`orderdetailview User navigates to orderdetailview 5`] = `
+<SafeAreaView
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "flex": 1,
+      "marginBottom": 32,
+    }
+  }
+>
+  <FocusAwareStatusBar
+    backgroundColor="#ffffff"
+    barStyle="dark-content"
+    isFocused={true}
+  />
+  <TopHeader
+    headerLeftIconName={
+      Object {
+        "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/header/backIcon.png",
+      }
+    }
+    headerLeftIconStyle={
+      Object {
+        "height": 20,
+        "resizeMode": "contain",
+        "width": 24,
+      }
+    }
+    headerRightIcons={
+      Array [
+        Object {
+          "cartHasProductFlag": undefined,
+          "onPress": [Function],
+          "src": Object {
+            "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/Profile/cartBlack.png",
+          },
+          "style": Object {
+            "marginLeft": 70,
+            "resizeMode": "contain",
+          },
+        },
+      ]
+    }
+    headerStyle={Object {}}
+    headerTitle="My Order"
+    headerTitleStyle={Object {}}
+    headerTitleViewStyle={
+      Object {
+        "paddingLeft": "4%",
+      }
+    }
+    navigation={
+      Object {
+        "addListener": [MockFunction] {
+          "calls": Array [
+            Array [
+              "willFocus",
+              [Function],
+            ],
+            Array [
+              "willFocus",
+              [Function],
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+        "navigate": [MockFunction],
+        "state": Object {
+          "params": Object {
+            "mainOrderData": Object {},
+            "orderData": Object {},
+          },
+        },
+      }
+    }
+    onPressLeft={[Function]}
+  />
+  <ScrollViewMock>
+    <View
+      style={Object {}}
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "marginTop": 20,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "marginLeft": 22,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#3e454f",
+                "fontFamily": "GTWalsheimPro-Medium",
+                "fontSize": 26,
+                "lineHeight": 38,
+                "opacity": 0.89,
+              }
+            }
+          >
+            Order Number
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#3e454f",
+                "fontFamily": "GTWalsheimPro-Medium",
+                "fontSize": 26,
+                "lineHeight": 38,
+                "opacity": 0.89,
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "flex-end",
+              "marginRight": 22,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#3e454f",
+                "fontFamily": "GTWalsheimPro-Medium",
+                "fontSize": 26,
+                "lineHeight": 38,
+                "opacity": 0.89,
+              }
+            }
+          >
+            Order Date
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#3e454f",
+                "fontFamily": "GTWalsheimPro-Medium",
+                "fontSize": 26,
+                "lineHeight": 38,
+                "opacity": 0.89,
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignSelf": "center",
+          "backgroundColor": "#ffffff",
+          "borderRadius": 8,
+          "marginTop": 8,
+          "paddingBottom": 12,
+          "width": 706,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "paddingTop": 16,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": undefined,
+            }
+          }
+          style={
+            Object {
+              "height": 130,
+              "marginLeft": 18,
+              "width": 130,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "marginLeft": 22,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "marginLeft": 22,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#3e454f",
+                  "fontFamily": "GTWalsheimPro-Regular",
+                  "fontSize": 34,
+                  "lineHeight": 38,
+                  "width": 340,
+                }
+              }
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#3e454f",
+                  "fontFamily": "GTWalsheimPro-Regular",
+                  "fontSize": 26,
+                  "lineHeight": 38,
+                  "opacity": 0.4,
+                }
+              }
+            >
+              Quantity :
+               
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "marginLeft": 22,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#3e454f",
+                  "fontFamily": "GTWalsheimPro-Regular",
+                  "fontSize": 26,
+                  "lineHeight": 38,
+                  "marginTop": 6,
+                  "opacity": 0.4,
+                }
+              }
+            >
+              Ordered on: 
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#3e454f",
+                  "fontFamily": "GTWalsheimPro-Regular",
+                  "fontSize": 26,
+                  "lineHeight": 38,
+                  "marginLeft": 8,
+                  "marginTop": 6,
+                  "opacity": 0.89,
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginLeft": 22,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": undefined,
+                  "fontFamily": "GTWalsheimPro-Medium",
+                  "fontSize": 30,
+                  "lineHeight": 36,
+                  "marginTop": 7,
+                  "opacity": 0.9,
+                }
+              }
+            >
+              £
+               
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#43b7a8",
+                    "borderRadius": 7,
+                    "height": 14,
+                    "width": 14,
+                  }
+                }
+              />
+              <Text
+                style={
+                  Object {
+                    "color": "#1809b8",
+                    "fontFamily": "GTWalsheimPro-Regular",
+                    "fontSize": 30,
+                    "lineHeight": 36,
+                    "marginLeft": 22,
+                    "opacity": 0.9,
+                  }
+                }
+              />
+            </View>
+          </View>
+          <Text
+            style={
+              Object {
+                "color": "#3e454f",
+                "fontFamily": "GTWalsheimPro-Medium",
+                "fontSize": 30,
+                "lineHeight": 36,
+                "marginLeft": 22,
+                "marginTop": 7,
+                "opacity": 0.9,
+              }
+            }
+          >
+            Total Amount: 
+            £
+             
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#1809b8",
+                "fontFamily": "GTWalsheimPro-Medium",
+                "fontSize": 24,
+                "lineHeight": 28,
+                "marginLeft": 22,
+                "marginTop": 6.2,
+                "opacity": 0.9,
+                "textDecorationLine": "underline",
+              }
+            }
+          >
+            Tracking ID:
+             
+             
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-around",
+          }
+        }
+      />
+    </View>
+    <Component
+      animationType="slide"
+      hardwareAccelerated={false}
+      onRequestClose={[Function]}
+      transparent={true}
+      visible={false}
+    >
+      <TouchableOpacity
+        activeOpacity={1}
+        onPress={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "rgba(34,34,34, 0.8)",
+            "flex": 1,
+            "justifyContent": "center",
+          }
+        }
+        testID="buttonCancelOrderModalContent"
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderRadius": 16,
+              "width": 572,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#3e454f",
+                "fontFamily": "GTWalsheimPro-Medium",
+                "fontSize": 36,
+                "lineHeight": 40,
+                "marginTop": 31,
+                "textAlign": "center",
+              }
+            }
+          >
+            Cancel Order
+          </Text>
+          <Text
+            style={
+              Object {
+                "alignSelf": "center",
+                "color": "#3e454f",
+                "fontFamily": "GTWalsheimPro-Regular",
+                "fontSize": 30,
+                "lineHeight": 36,
+                "marginTop": 23,
+                "opacity": 0.8,
+                "textAlign": "center",
+                "width": 442,
+              }
+            }
+          >
+            Are you sure you want to cancel order ?
+          </Text>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "borderTopColor": "#d8d8d8",
+                "borderTopWidth": 1,
+                "flexDirection": "row",
+                "justifyContent": "space-around",
+                "marginBottom": 12.4,
+                "marginTop": 30,
+                "paddingTop": 7.5,
+              }
+            }
+          >
+            <TouchableOpacity
+              activeOpacity={0.2}
+              onPress={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                }
+              }
+              testID="buttonCancelOrder"
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#3e454f",
+                    "fontFamily": "GTWalsheimPro-Regular",
+                    "fontSize": 26,
+                    "lineHeight": 38,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                Cancel
+              </Text>
+            </TouchableOpacity>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#1809b8",
+                  "height": 110,
+                  "marginBottom": 12.7,
+                  "opacity": 0.5,
+                  "width": 2,
+                }
+              }
+            />
+            <TouchableOpacity
+              activeOpacity={0.2}
+              onPress={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                }
+              }
+              testID="buttonConfirmOrder"
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#3e454f",
+                    "fontFamily": "GTWalsheimPro-Regular",
+                    "fontSize": 26,
+                    "lineHeight": 38,
+                    "opacity": 0.8,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                Yes, Confirm
+              </Text>
+            </TouchableOpacity>
+          </View>
+        </View>
+      </TouchableOpacity>
+    </Component>
+    <Component
+      animationType="slide"
+      hardwareAccelerated={false}
+      onRequestClose={[Function]}
+      transparent={true}
+      visible={false}
+    >
+      <KeyboardAwareScrollViewMock
+        contentContainerStyle={
+          Object {
+            "flex": 1,
+          }
+        }
+        enableAutomaticScroll={true}
+        enableOnAndroid={false}
+        enableResetScrollToCoords={true}
+        extraHeight={75}
+        extraScrollHeight={0}
+        keyboardOpeningTime={250}
+        viewIsInsideTabBar={false}
+      >
+        <TouchableOpacity
+          activeOpacity={1}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "rgba(34,34,34, 0.8)",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+          testID="buttonRatingContainer"
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#ffffff",
+                "borderRadius": 16,
+                "width": 572,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#3e454f",
+                  "fontFamily": "GTWalsheimPro-Medium",
+                  "fontSize": 36,
+                  "lineHeight": 40,
+                  "marginTop": 31,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Rate and Review
+            </Text>
+            <Text
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "color": "#3e454f",
+                  "fontFamily": "GTWalsheimPro-Regular",
+                  "fontSize": 30,
+                  "lineHeight": 36,
+                  "marginTop": 23,
+                  "opacity": 0.8,
+                  "textAlign": "center",
+                  "width": 442,
+                }
+              }
+            >
+              Rate our Product
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "marginBottom": 15.2,
+                  "marginHorizontal": 126.8,
+                  "marginTop": 12.2,
+                }
+              }
+            >
+              <TouchableOpacity
+                activeOpacity={0.2}
+                key="rating-item-0"
+                onPress={[Function]}
+              >
+                <Image
+                  source={
+                    Object {
+                      "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/myOrders/selectedStar.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "height": 45.6,
+                      "width": 47.8,
+                    }
+                  }
+                />
+              </TouchableOpacity>
+              <TouchableOpacity
+                activeOpacity={0.2}
+                key="rating-item-1"
+                onPress={[Function]}
+              >
+                <Image
+                  source={
+                    Object {
+                      "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/myOrders/unSelectedStar.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "height": 45.6,
+                      "width": 47.8,
+                    }
+                  }
+                />
+              </TouchableOpacity>
+              <TouchableOpacity
+                activeOpacity={0.2}
+                key="rating-item-2"
+                onPress={[Function]}
+              >
+                <Image
+                  source={
+                    Object {
+                      "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/myOrders/unSelectedStar.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "height": 45.6,
+                      "width": 47.8,
+                    }
+                  }
+                />
+              </TouchableOpacity>
+              <TouchableOpacity
+                activeOpacity={0.2}
+                key="rating-item-3"
+                onPress={[Function]}
+              >
+                <Image
+                  source={
+                    Object {
+                      "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/myOrders/unSelectedStar.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "height": 45.6,
+                      "width": 47.8,
+                    }
+                  }
+                />
+              </TouchableOpacity>
+              <TouchableOpacity
+                activeOpacity={0.2}
+                key="rating-item-4"
+                onPress={[Function]}
+              >
+                <Image
+                  source={
+                    Object {
+                      "testUri": "../../../packages/blocks/studio-store-ecommerce-theme/assets/myOrders/unSelectedStar.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "height": 45.6,
+                      "width": 47.8,
+                    }
+                  }
+                />
+              </TouchableOpacity>
+            </View>
+            <TextInput
+              allowFontScaling={true}
+              multiline={true}
+              onChangeText={[Function]}
+              placeholder="Write detailed review for product .."
+              placeholderTextColor="#3e454f"
+              rejectResponderTermination={true}
+              returnKeyType="done"
+              secureTextEntry={false}
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "borderColor": "#d8d8d8",
+                  "borderRadius": 20,
+                  "borderWidth": 2,
+                  "height": 180,
+                  "marginBottom": 15.8,
+                  "paddingHorizontal": 24,
+                  "paddingTop": 12.8,
+                  "width": 512,
+                }
+              }
+              testID="ratingInput"
+              textAlignVertical="top"
+              underlineColorAndroid="transparent"
+              value="test rating"
+            />
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "borderTopColor": "#d8d8d8",
+                  "borderTopWidth": 1,
+                  "flexDirection": "row",
+                  "justifyContent": "space-around",
+                  "marginBottom": 12.4,
+                  "paddingTop": 7.5,
+                }
+              }
+            >
+              <TouchableOpacity
+                activeOpacity={0.2}
+                onPress={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                  }
+                }
+                testID="buttonRatingCancel"
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#3e454f",
+                      "fontFamily": "GTWalsheimPro-Regular",
+                      "fontSize": 26,
+                      "lineHeight": 38,
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  Cancel
+                </Text>
+              </TouchableOpacity>
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#1809b8",
+                    "height": 110,
+                    "marginBottom": 12.7,
+                    "opacity": 0.5,
+                    "width": 2,
+                  }
+                }
+              />
+              <TouchableOpacity
+                activeOpacity={0.2}
+                onPress={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                  }
+                }
+                testID="buttonRatingSubmit"
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#3e454f",
+                      "fontFamily": "GTWalsheimPro-Regular",
+                      "fontSize": 26,
+                      "lineHeight": 38,
+                      "opacity": 0.8,
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  Submit
+                </Text>
+              </TouchableOpacity>
+            </View>
+          </View>
+        </TouchableOpacity>
+      </KeyboardAwareScrollViewMock>
+    </Component>
+  </ScrollViewMock>
+  <ApplicationLoader
+    isFetching={false}
+  />
+  <CustomErrorModal
+    hideErrorModal={[Function]}
+    isShowError={false}
+    message=""
+    showModal={false}
+  />
+</SafeAreaView>
+`;

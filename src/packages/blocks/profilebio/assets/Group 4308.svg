@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="136.692" height="213.7" viewBox="0 0 136.692 213.7">
+    <defs>
+        <linearGradient id="rfixef7q2a" x1=".044" x2="1.005" y1=".043" y2=".995" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#d8e4f0"/>
+            <stop offset="1" stop-color="#becfe0"/>
+        </linearGradient>
+        <linearGradient id="rdzdebidbb" x1=".055" x2=".973" y1=".054" y2=".685" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#cddbe7"/>
+            <stop offset="1" stop-color="#90a5ba"/>
+        </linearGradient>
+    </defs>
+    <g>
+        <g transform="translate(-148 -130) translate(148 130)">
+            <g>
+                <g>
+                    <path fill="url(#rfixef7q2a)" d="M85.921 100.935V52.793a33.4 33.4 0 1 0-66.791 0v48.142H0V52.793a52.526 52.526 0 1 1 105.051 0v48.142h-19.13" opacity="0.8" transform="translate(15.855)"/>
+                    <path fill="url(#rdzdebidbb)" d="M127.82 0H8.872A8.9 8.9 0 0 0 0 8.917v95.918a8.9 8.9 0 0 0 8.872 8.917H127.82a8.9 8.9 0 0 0 8.872-8.917V8.918A8.9 8.9 0 0 0 127.82 0" opacity="0.8" transform="translate(0 99.948)"/>
+                </g>
+            </g>
+            <ellipse cx="27.866" cy="28.089" fill="url(#rfixef7q2a)" opacity="0.45" rx="27.866" ry="28.089" transform="translate(38.622 128.153)"/>
+        </g>
+        <g>
+            <path fill="#fff" d="M27.21 54.421A27.21 27.21 0 0 1 7.97 7.97a27.21 27.21 0 0 1 38.481 38.481 27.033 27.033 0 0 1-19.241 7.97zM14.231 25.213l-3.993 3.994 11.981 11.981 21.965-21.964-3.994-3.995L22.219 33.2l-7.988-7.988z" opacity="0.9" transform="translate(-148 -130) translate(187.479 259.052)"/>
+        </g>
+    </g>
+</svg>

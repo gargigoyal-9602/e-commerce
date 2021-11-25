@@ -1,0 +1,65 @@
+{
+  "id": "InvoiceBilling200",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/InvoiceBilling200",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "InvoiceBilling200"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "InvoiceBilling200": {
+        "file": "InvoiceBilling200.tsx",
+        "extends": "InvoiceBilling200Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "InvoiceBilling200Controller",
+            "path": "./InvoiceBilling200Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./InvoiceBilling200Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "InvoiceBilling200"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "InvoiceBilling200Block": {
+        "file": "InvoiceBilling200Block.tsx",
+        "extends": "InvoiceBilling200Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "InvoiceBilling200Controller",
+            "path": "./InvoiceBilling200Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./InvoiceBilling200Controller"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "TargetedFeed200",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/TargetedFeed200",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "TargetedFeed200"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "TargetedFeed200": {
+        "file": "TargetedFeed200.tsx",
+        "extends": "TargetedFeed200Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "TargetedFeed200Controller",
+            "path": "./TargetedFeed200Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./TargetedFeed200Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "TargetedFeed200"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "TargetedFeed200Block": {
+        "file": "TargetedFeed200Block.tsx",
+        "extends": "TargetedFeed200Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "TargetedFeed200Controller",
+            "path": "./TargetedFeed200Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./TargetedFeed200Controller"
+          }
+        ]
+      }
+    }
+  }
+}

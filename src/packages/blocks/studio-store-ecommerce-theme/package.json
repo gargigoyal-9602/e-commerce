@@ -1,0 +1,11 @@
+{
+  "name": "studio-store-ecommerce-theme",
+  "version": "1.0.0",
+  "repository": "https://gitlab.builder.ai/builder/builder-bx/Bx/blocks/react-native/development/builder-studio-store/e-commerce/blocks/theme.git",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo Theme Block no code",
+    "testBackend": "echo Theme Block no code",
+    "lint": "echo Theme Block no code"
+  }
+}

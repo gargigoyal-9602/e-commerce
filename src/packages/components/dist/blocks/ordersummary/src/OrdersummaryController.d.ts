@@ -1,0 +1,94 @@
+import { Message } from "../../../framework/src/Message";
+import { BlockComponent } from "../../../framework/src/BlockComponent";
+export declare const configJSON: any;
+export interface Props {
+    navigation: any;
+    id: string;
+}
+interface S {
+    showCouponCodeModal: boolean;
+    showGuestModal: boolean;
+    token: string;
+    codeValue: string;
+    cart_Value: string;
+    isShowError: boolean;
+    showAlertModal: boolean;
+    message: any;
+    isFetching: boolean;
+    cartList: any;
+    cartData: any;
+    quantity: string;
+    catalogue_variant_id: string;
+    catalogue_id: string;
+    cart_id: any;
+    emptyCart: boolean;
+    isCouponApplied: boolean;
+    isValidCoupon: boolean;
+    shippingAddressData: any;
+    billingAddressData: any;
+    isPaymentOption1Selected: boolean;
+    isPaymentOption2Selected: boolean;
+    isPaymentOption3Selected: boolean;
+    profileData: any;
+    cardToken: any;
+}
+interface SS {
+    id: any;
+}
+export default class OrdersummaryController extends BlockComponent<Props, S, SS> {
+    apiApplyCouponCallId: any;
+    getCartListApiCallId: any;
+    updateQtyApiCallId: any;
+    emptyCartApiCallId: any;
+    removeCartItemApiCallId: any;
+    removeCouponApiCallId: any;
+    getCartProductId: any;
+    saveAddressId: any;
+    checkZipcodeId: any;
+    checkAvailabilityId: any;
+    releaseBlockId: any;
+    placeOrderId: any;
+    createOrderId: any;
+    verifyRazorPayId: any;
+    getUserProfileApiCallId: any;
+    releaseBlockQuantityApiCallId: any;
+    createStripePaymentId: any;
+    confirmStripePaymentID: any;
+    shippingChargeCalculationApiCallID: any;
+    releaseShippingChargeCalculationApiCallID: any;
+    constructor(props: Props);
+    componentDidMount(): Promise<void>;
+    handleBackButtonClick: () => boolean;
+    componentWillUnmount(): Promise<void>;
+    getToken: () => Promise<void>;
+    receive(from: string, message: Message): Promise<void>;
+    getShippingChargeCalculation: () => Promise<void>;
+    releaseShippingChargeCalculation: () => Promise<void>;
+    getShippingChargeCalculationSuccessCallBack: (res: any) => void;
+    releaseShippingChargeCalculationSuccessCallBack: () => void;
+    getCartList: () => Promise<void>;
+    apiCall: (data: any) => Promise<string>;
+    getCartHasProduct: () => Promise<void>;
+    getUserProfile: () => Promise<void>;
+    getUserProfileSuccessCallBack: (res: any) => Promise<void>;
+    onSetAddress: (isFromShipping: boolean, addressData: any) => void;
+    onAddAddress: (isFromShipping: boolean) => void;
+    saveAddress: () => Promise<void>;
+    releaseBlockQuantity: () => Promise<void>;
+    releaseBlockQuantitySuccessCallBack: () => void;
+    releaseBlockQuantityFailureCallBack: () => void;
+    checkZipcodeAvailability: () => Promise<void>;
+    checkProductAvailability: () => Promise<void>;
+    onConfirmingOrder: () => void;
+    placeOrder: () => Promise<void>;
+    requestPayment: () => Promise<void>;
+    getRazorpayOrderId: () => Promise<void>;
+    razorpayAddonMethod: (razorpay_order_id: any) => void;
+    verifyAddonRazorPay: (razorPay_data: any) => Promise<void>;
+    placeConfirmOrder: () => Promise<void>;
+    onVerifyAddonRazorpaySuccess: (res: any) => void;
+    createStripePaymentSuccessCallBack: (res: any) => Promise<void>;
+    onConfirmStripePaymentSuccessCallBack: (res: any) => void;
+    getVarientString: (properties: any) => string;
+}
+export {};

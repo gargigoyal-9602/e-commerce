@@ -1,0 +1,92 @@
+{
+  "name": "mobile",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "npx react-native run-android",
+    "compile": "tsc -b --incremental",
+    "ios": "npx react-native run-ios",
+    "start": "concurrently \"npm run compile -- -w\" \"npx react-native start\"",
+    "studio": "studio android",
+    "xcode": "open ios/Freemium87482.xcworkspace",
+    "production": "react-native run-android --variant=release"
+  },
+  "dependencies": {
+    "@invertase/react-native-apple-authentication": "file:../blocks/studio-store-ecommerce-core/node_modules/@invertase/react-native-apple-authentication",
+    "@react-native-community/async-storage-backend-legacy": "file:../blocks/studio-store-ecommerce-core/node_modules/@react-native-community/async-storage-backend-legacy",
+    "@react-native-community/datetimepicker": "file:../blocks/studio-store-ecommerce-core/node_modules/@react-native-community/datetimepicker",
+    "@react-native-community/google-signin": "file:../blocks/studio-store-ecommerce-core/node_modules/@react-native-community/google-signin",
+    "@react-native-community/netinfo": "file:../blocks/studio-store-ecommerce-core/node_modules/@react-native-community/netinfo",
+    "@react-native-community/push-notification-ios": "file:../blocks/studio-store-ecommerce-core/node_modules/@react-native-community/push-notification-ios",
+    "@react-native-firebase/app": "file:../blocks/studio-store-ecommerce-core/node_modules/@react-native-firebase/app",
+    "@react-native-firebase/messaging": "file:../blocks/studio-store-ecommerce-core/node_modules/@react-native-firebase/messaging",
+    "blocks": "file:../blocks",
+    "components": "file:../components",
+    "react": "file:../blocks/studio-store-ecommerce-core/node_modules/react",
+    "react-images-upload": "file:../blocks/studio-store-ecommerce-core/node_modules/react-images-upload",
+    "react-native": "file:../blocks/studio-store-ecommerce-core/node_modules/react-native",
+    "react-native-countdown-component": "file:../blocks/studio-store-ecommerce-core/node_modules/react-native-countdown-component",
+    "react-native-datepicker": "file:../blocks/studio-store-ecommerce-core/node_modules/react-native-datepicker",
+    "react-native-device-info": "file:../blocks/studio-store-ecommerce-core/node_modules/react-native-device-info",
+    "react-native-fbsdk": "file:../blocks/studio-store-ecommerce-core/node_modules/react-native-fbsdk",
+    "react-native-image-crop-picker": "file:../blocks/studio-store-ecommerce-core/node_modules/react-native-image-crop-picker",
+    "react-native-keyboard-aware-scroll-view": "file:../blocks/studio-store-ecommerce-core/node_modules/react-native-keyboard-aware-scroll-view",
+    "react-native-linear-gradient": "file:../blocks/studio-store-ecommerce-core/node_modules/react-native-linear-gradient",
+    "react-native-modal-activityindicator": "file:../blocks/studio-store-ecommerce-core/node_modules/react-native-modal-activityindicator",
+    "react-native-push-notification": "file:../blocks/studio-store-ecommerce-core/node_modules/react-native-push-notification",
+    "react-native-read-more-text": "file:../blocks/studio-store-ecommerce-core/node_modules/react-native-read-more-text",
+    "react-native-razorpay": "file:../blocks/studio-store-ecommerce-core/node_modules/react-native-razorpay",
+    "react-native-segmented-control-tab": "file:../blocks/studio-store-ecommerce-core/node_modules/react-native-segmented-control-tab",
+    "react-native-swipeout": "file:../blocks/studio-store-ecommerce-core/node_modules/react-native-swipeout"
+  },
+  "devDependencies": {
+    "@react-native-community/eslint-config": "file:../blocks/studio-store-ecommerce-core/node_modules/@react-native-community/eslint-config",
+    "@react-native-community/eslint-plugin": "file:../blocks/studio-store-ecommerce-core/node_modules/@react-native-community/eslint-plugin",
+    "@types/enzyme": "file:../blocks/studio-store-ecommerce-core/node_modules/@types/enzyme",
+    "@types/enzyme-adapter-react-16": "file:../blocks/studio-store-ecommerce-core/node_modules/@types/enzyme-adapter-react-16",
+    "@types/jest": "file:../blocks/studio-store-ecommerce-core/node_modules/@types/jest",
+    "@types/react": "file:../blocks/studio-store-ecommerce-core/node_modules/@types/react",
+    "@types/react-native": "file:../blocks/studio-store-ecommerce-core/node_modules/@types/react-native",
+    "@types/react-test-renderer": "file:../blocks/studio-store-ecommerce-core/node_modules/@types/react-test-renderer",
+    "@typescript-eslint/eslint-plugin": "file:../blocks/studio-store-ecommerce-core/node_modules/@typescript-eslint/eslint-plugin",
+    "babel-jest": "file:../blocks/studio-store-ecommerce-core/node_modules/babel-jest",
+    "enzyme": "file:../blocks/studio-store-ecommerce-core/node_modules/enzyme",
+    "enzyme-adapter-react-16": "file:../blocks/studio-store-ecommerce-core/node_modules/enzyme-adapter-react-16",
+    "enzyme-to-json": "file:../blocks/studio-store-ecommerce-core/node_modules/enzyme-to-json",
+    "eslint": "file:../blocks/studio-store-ecommerce-core/node_modules/eslint",
+    "eslint-config-react-app": "file:../blocks/studio-store-ecommerce-core/node_modules/eslint-config-react-app",
+    "eslint-plugin-react-native": "file:../blocks/studio-store-ecommerce-core/node_modules/eslint-plugin-react-native",
+    "eslint-plugin-sonarjs": "file:../blocks/studio-store-ecommerce-core/node_modules/eslint-plugin-sonarjs",
+    "jest": "file:../blocks/studio-store-ecommerce-core/node_modules/jest",
+    "jest-enzyme": "file:../blocks/studio-store-ecommerce-core/node_modules/jest-enzyme",
+    "jest-sonar-reporter": "file:../blocks/studio-store-ecommerce-core/node_modules/jest-sonar-reporter",
+    "pixels-catcher": "file:../blocks/studio-store-ecommerce-core/node_modules/pixels-catcher",
+    "react-native-save-view": "file:../blocks/studio-store-ecommerce-core/node_modules/react-native-save-view",
+    "react-test-renderer": "file:../blocks/studio-store-ecommerce-core/node_modules/react-test-renderer",
+    "ts-jest": "file:../blocks/studio-store-ecommerce-core/node_modules/ts-jest"
+  },
+  "jestSonar": {
+    "reportPath": "../../reports",
+    "reportFile": "test-reporter.xml",
+    "indent": 4
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "<rootDir>/../../node_modules/jest-enzyme/lib/index.js"
+    ],
+    "testResultsProcessor": "jest-sonar-reporter",
+    "setupFiles": [
+      "<rootDir>/test-setup.js"
+    ],
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "collectCoverageFrom": [
+      "!../../node_modules/**",
+      "!build/**"
+    ]
+  }
+}

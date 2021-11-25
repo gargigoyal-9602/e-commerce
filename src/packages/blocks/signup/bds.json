@@ -1,0 +1,14 @@
+{
+  "bds": {
+    "name": "Signup",
+    "id": "Signup",
+    "platform": [
+      "mobile"
+    ],
+    "author": "CMT",
+    "summary": null,
+    "license": "BSD",
+    "version": "1.0.0",
+    "pages": []
+  }
+}

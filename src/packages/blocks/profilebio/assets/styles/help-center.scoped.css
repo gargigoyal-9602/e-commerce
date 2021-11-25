@@ -1,0 +1,157 @@
+/*
+* Global CSS of Help Center
+*/
+.help-center-list-content {
+  font-family: "GTWalsheimPro-Regular" !important;
+  font-size: 30px !important;
+  font-weight: 500 !important;
+  line-height: 1.13 !important;
+  text-align: left !important;
+  color: var(--color-black) !important;
+}
+/*
+* Breadcrumbs CSS
+*/
+.hcb-breadcrumbs {
+  color: var(--color-dark-grey);
+  font-size: 12px;
+  line-height: 1.17;
+}
+.bb-desktop-view {
+  /* display: block;  */
+}
+.hcb-breadcrumbs .hcb-home {
+  color: var(--color-black) !important;
+}
+.hcb-breadcrumbs .hcb-home:hover {
+  color: var(--color-sky-blue) !important;
+  font-weight: bold !important;
+}
+
+.bb-mobile-view {
+  display: none !important;
+}
+
+.hcb-inner-wrap {
+  padding: 40px 40px 36px;
+}
+.hcb-content-wrap {
+  padding: 40px 40px 36px;
+}
+
+.hcb-inner-contnet .hcb-tabs-name li:first-child {
+  padding-top: 0;
+}
+.hcb-inner-contnet .hcb-tabs-name li:last-child {
+  padding-bottom: 0;
+}
+.hcb-current {
+  color: var(--color-black) !important;
+  font-size: 12px;
+  font-weight: bold !important;
+  line-height: 1.17;
+}
+.hcb-beckfrom-ct-page {
+  margin-top: 50px;
+  color: var(--color-black);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.13;
+}
+.hcb-mb-30 {
+  margin-bottom: 30px;
+}
+.hc-mt-30 {
+  margin-bottom: 30px;
+}
+.hc-mb-50 {
+  margin-bottom: 50px;
+}
+.radius-10 {
+  border-radius: 10px;
+}
+.list-style-none {
+  list-style: none;
+}
+.hcp-back-arrow {
+  cursor: pointer;
+}
+.hcp-back-arrow-inner {
+  cursor: pointer;
+}
+/*
+* Left Col CSS
+*/
+.hcb-inner-contnet .hcb-tabs-name li {
+  padding: 23.5px 0;
+  border-bottom: 2px solid #cae2fe;
+  font-size: 20px !important;
+  line-height: 1.15;
+  color: var(--color-black);
+  cursor: pointer;
+}
+.hcb-inner-contnet .hcb-tabs-name li:last-child {
+  border: none;
+  padding-bottom: 0;
+}
+.hcb-inner-contnet .hcb-tabs-name li.active {
+  font-weight: 500 !important;
+  color: var(--color-primary) !important;
+}
+
+/*
+* Right Col CSS
+*/
+
+.hc-tab-main-title {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.13;
+  color: var(--color-black);
+  margin-bottom: 40px;
+}
+.hc-tab-sub-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--color-black);
+  line-height: 1.15;
+  margin-bottom: 10px;
+}
+.ht-tab-description {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.18px;
+  color: var(--color-dark-grey);
+}
+.hcb-tab-content {
+  padding: 40px 40px 23px 30px;
+}
+.yt-cm-lt-col {
+  padding-right: 7px;
+}
+.yt-cm-rt-col {
+  padding-left: 7px;
+}
+
+.bb-mb-pg-ttl {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .hcp-back-arrow {
+    display: none !important;
+  }
+  .bb-mobile-view {
+    display: block !important;
+  }
+  .bb-desktop-view {
+    display: none !important;
+  }
+
+  .bb-cm-rt-col {
+    /* display: none !important; */
+  }
+  .bb-mb-pg-ttl {
+    display: block;
+  }
+}

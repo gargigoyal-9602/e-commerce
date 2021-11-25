@@ -1,0 +1,452 @@
+.btnBack {
+  border-radius: 6px;
+  background-color: #324688 !important;
+  font-family: "GTWalsheimPro-Medium-";
+  font-size: 18px !important;
+  -webkit-filter: blur(17.4px);
+  filter: blur(17.4px);
+  font-weight: 500 !important;
+  text-align: center;
+  line-height: 1.11;
+  color: #ffffff;
+}
+.profile-div {
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+.breadcrumb > li + li:before {
+  content: "\3E"; /* hex code for > */
+}
+.main-menu-row {
+  display: block;
+}
+.main-menu-inner-wrap {
+  border: 1px solid #e6e6e6;
+}
+.divider {
+  border: solid 1px #e2e2e2;
+  margin-left: 10;
+}
+.menu-listing-data {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  /* align-items: center; */
+  /* padding: 5px; */
+  border-radius: 10px;
+  width: "350px" !important;
+  border: 1px soild #ffffff !important;
+  background-color: #ffffff;
+}
+.menu-img {
+  object-fit: "contain";
+  width: "5%" !important;
+  height: "15%";
+  margin-right: 8px;
+}
+.title-text {
+  font-family: "GTWalsheimPro-Medium-";
+  font-size: 18px !important;
+  color: #3e454f !important;
+}
+.profile-data {
+  border: 1px soild black;
+  border-radius: 10px;
+  background-color: #ffffff;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 350px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+.profile-name {
+  font-family: "GTWalsheimPro-Medium-";
+  font-size: 30px !important;
+  font-weight: 500 !important;
+  color: #3e454f !important;
+  line-height: 1.13 !important;
+  text-align: left;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+}
+.profile-emailText {
+  font-family: "GTWalsheimPro-Regular-";
+  font-size: 18px !important;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11 !important;
+  letter-spacing: normal;
+  text-align: left;
+  color: #8b8f95 !important;
+}
+.spanText {
+  font-family: "GTWalsheimPro-Regular-";
+  font-size: 16px !important;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.13 !important;
+  letter-spacing: normal;
+  text-align: center;
+  color: #8b8f95 !important;
+}
+.menu-text {
+  font-family: "GTWalsheimPro-Medium-";
+  /* -webkit-filter: blur(11px);
+  filter: blur(11px); */
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  text-align: center !important;
+  color: #3e454f !important;
+}
+.sidemenu-text {
+  font-family: "GTWalsheimPro-Medium";
+  font-size: 30px !important;
+  font-weight: 500 !important;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.13 !important;
+  letter-spacing: normal;
+  text-align: left;
+  color: #3e454f !important;
+}
+.profile-img {
+  border-radius: 6px;
+  text-align: center;
+  width: 270%;
+  height: 13vh;
+}
+.without-profileImg {
+  display: inline-block;
+  width: 100%;
+  padding: 120px 0 0 0;
+  height: 100px;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url("../photo-camera.svg") center center no-repeat #e4e4e4;
+  border-radius: 20px;
+  background-size: 60px 60px;
+}
+.uploaded-profileimg {
+  width: 40%;
+  height: 13vh;
+  object-fit: contain;
+}
+.label-text {
+  font-family: "GTWalsheimPro-Regular-";
+  font-size: 14px !important;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14 !important;
+  letter-spacing: normal;
+  text-align: left;
+  color: #8b8f95 !important;
+}
+.submitBtn {
+  border-radius: 6px !important;
+  background-color: #324688 !important;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11 !important;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff !important;
+  width: 35%;
+  height: 6vh;
+}
+.btnWithoutborder {
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11 !important;
+  letter-spacing: normal;
+  text-align: left;
+  color: #324688 !important;
+  font-family: "GTWalsheimPro-Medium-";
+  width: 50%;
+  height: 5vh;
+}
+.profileImg {
+  object-fit: contain;
+  width: 85%;
+  height: 10vh;
+}
+.profileImgWIthout {
+  height: 10vh;
+  object-fit: contain;
+}
+.modalTitleInputLable {
+  font-family: "GTWalsheimPro-Regular-";
+  font-size: 14px !important;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14 !important;
+  letter-spacing: normal;
+  text-align: left;
+  color: #8b8f95;
+}
+.saveProfileBtn {
+  font-family: "GTWalsheimPro-Bold";
+  font-size: 16px;
+  font-weight: bold !important;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.13 !important;
+  letter-spacing: 0.32px;
+  text-align: center;
+  /* color: #ffffff; */
+  color: var(--color-ButtonTextRegular);
+  border-radius: 6px !important;
+  /* background-color: #324688 !important; */
+  background-color: var(--color-ButtonBackRegular);
+}
+
+.saveProfileBtn:hover {
+  background-color: var(--color-ButtonBackHover);
+  color: var(--color-ButtonTextHover);
+}
+
+.removeBtn {
+  font-size: 16px;
+  font-weight: 500 !important;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.13 !important;
+  letter-spacing: normal;
+  text-align: left;
+  color: #f67054 !important;
+  font-family: "GTWalsheimPro-Medium" !important;
+}
+.saveBtn {
+  font-size: 16px;
+  font-weight: 500 !important;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.13 !important;
+  letter-spacing: normal;
+  text-align: left;
+  color: #324688 !important;
+  font-family: "GTWalsheimPro-Medium" !important;
+}
+.content-updatePwd {
+  font-family: "GTWalsheimPro-Regular-";
+  font-size: 16px !important;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25 !important;
+  letter-spacing: normal;
+  text-align: left;
+  color: #3e454f !important;
+}
+.badge-profile {
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: red;
+}
+.saveAddressImg {
+  object-fit: contain;
+  width: 25%;
+  height: 10vh;
+}
+.actionsDiv {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  left: 580px;
+  top: 40px;
+}
+
+/* Modal styles */
+.modal-title {
+  font-family: "GTWalsheimPro-Medium-" !important;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  line-height: 1.11 !important;
+  color: #3e454f !important;
+  text-align: center !important;
+}
+.modal-content {
+  font-family: "GTWalsheimPro-Regular-" !important;
+  font-size: 16px !important ;
+  color: #8b8f95 !important;
+  font-weight: normal !important;
+  line-height: 1.13;
+  text-align: center !important;
+}
+.modal-btnCancel {
+  font-family: "GTWalsheimPro-Medium";
+  font-size: 15px !important;
+  font-weight: 500 !important;
+  color: #8b8f95 !important;
+  text-align: center !important;
+  line-height: 1.2;
+}
+.modal-btnSubmit {
+  font-family: "GTWalsheimPro-Medium" !important;
+  font-size: 15px !important;
+  font-weight: 500 !important;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2 !important;
+  letter-spacing: normal;
+  text-align: center !important;
+  color: #3e454f !important;
+}
+
+/* Connected accounts */
+.socialAccountTitle {
+  font-family: "GTWalsheimPro-Medium-" !important;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.15 !important;
+  letter-spacing: normal;
+  text-align: left !important;
+  color: #3e454f !important;
+}
+.socialAccountSubTitle {
+  font-family: "GTWalsheimPro-Medium-" !important;
+  font-size: 15px !important;
+  font-weight: 500 !important;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2 !important;
+  letter-spacing: normal;
+  text-align: left !important;
+  color: #8b8f95 !important;
+}
+
+/* address */
+.addressContent {
+  font-family: "GTWalsheimPro-Regular-" !important;
+  font-size: 20px !important;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.15 !important;
+  letter-spacing: normal;
+  text-align: left !important;
+  color: #8b8f95 !important;
+}
+.addressTitle {
+  font-family: "GTWalsheimPro-Medium-" !important;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.15 !important;
+  letter-spacing: normal;
+  text-align: left !important;
+  color: #3e454f !important;
+}
+.addressbtn {
+  font-family: "GTWalsheimPro-Medium";
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  text-align: right;
+  color: #324688;
+}
+
+/* ***************************************************************************************************** */
+.p-40 {
+  padding: 40px;
+}
+.profile-pg-mb-30 {
+  margin-bottom: 30px;
+}
+.yt-change-pass-vie-icn {
+  position: absolute;
+  top: 43%;
+  transform: translateY(-50%);
+  right: 25px;
+  color: var(--color-dark-grey);
+  cursor: pointer;
+}
+
+.yt-change-pass-vie-icn2 {
+  position: absolute;
+  top: 40.95%;
+  transform: translateY(-50%);
+  right: 25px;
+  color: var(--color-dark-grey);
+  cursor: pointer;
+}
+
+.yt-current-pass-vie-icn2 {
+  position: absolute;
+  top: 20.95%;
+  transform: translateY(-50%);
+  right: 25px;
+  color: var(--color-dark-grey);
+  cursor: pointer;
+}
+
+.yt-current-pass-vie-icn {
+  position: absolute;
+  top: 20.5%;
+  transform: translateY(-50%);
+  right: 25px;
+  color: var(--color-dark-grey);
+  cursor: pointer;
+}
+.yt-confirm-pass-vie-icn2 {
+  position: absolute;
+  top: 63.95%;
+  transform: translateY(-50%);
+  right: 25px;
+  color: var(--color-dark-grey);
+  cursor: pointer;
+}
+.yt-confirm-pass-vie-icn {
+  position: absolute;
+  top: 63%;
+  transform: translateY(-50%);
+  right: 25px;
+  color: var(--color-dark-grey);
+  cursor: pointer;
+}
+
+/*
+  * Screen for under 768 Resolution 
+  */
+@media (max-width: 767.92px) {
+  .yt-change-pass-vie-icn {
+    top: 47%;
+  }
+  .yt-change-pass-vie-icn2 {
+    top: 45.05%;
+  }
+  .yt-current-pass-vie-icn {
+    top: 24.5%;
+  }
+  .yt-current-pass-vie-icn2 {
+    top: 23%;
+  }
+  .yt-confirm-pass-vie-icn2 {
+    top: 67.05%;
+  }
+  .yt-confirm-pass-vie-icn {
+    top: 68%;
+  }
+}

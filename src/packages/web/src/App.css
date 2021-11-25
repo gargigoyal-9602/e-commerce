@@ -1,0 +1,43 @@
+@import url('../src/fonts/stylesheet.css');
+
+:root {
+  --color-primary: #324688;
+  --color-dark-grey: #8b8f95;
+  --color-black: #3e454f;
+  --color-dark-grey: #8b8f95;
+  --color-white: #ffffff;
+  --color-blue: #527bbe;
+  --color-orange: #f0573a;
+  --color-sky-blue: #007bff;
+  --color-green: #038b57;
+  --color-red: #ff471a;
+
+  --button-primary: #324688;
+  --button-text-primary: #ffffff;
+}
+
+* {
+  font-family: 'GTWalsheimPro';
+}
+
+#root br {
+  display: none;
+}
+
+.custom-scroll-bar {
+  max-height: calc(100vh - 22vh);
+  height: auto;
+  overflow-y: auto;
+}
+
+.custom-scroll-bar::-webkit-scrollbar {
+  width: 8px;
+}
+.custom-scroll-bar:hover::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.custom-scroll-bar:hover::-webkit-scrollbar-thumb {
+  background: gray;
+  overflow-y: auto;
+  min-height: 150px;
+}

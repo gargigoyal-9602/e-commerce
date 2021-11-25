@@ -1,0 +1,65 @@
+{
+  "id": "LiveChat200",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/LiveChat200",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "LiveChat200"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "LiveChat200": {
+        "file": "LiveChat200.tsx",
+        "extends": "LiveChat200Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "LiveChat200Controller",
+            "path": "./LiveChat200Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./LiveChat200Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "LiveChat200"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "LiveChat200Block": {
+        "file": "LiveChat200Block.tsx",
+        "extends": "LiveChat200Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "LiveChat200Controller",
+            "path": "./LiveChat200Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./LiveChat200Controller"
+          }
+        ]
+      }
+    }
+  }
+}

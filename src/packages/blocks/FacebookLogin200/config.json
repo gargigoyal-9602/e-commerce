@@ -1,0 +1,65 @@
+{
+  "id": "FacebookLogin200",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/FacebookLogin200",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "FacebookLogin200"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "FacebookLogin200": {
+        "file": "FacebookLogin200.tsx",
+        "extends": "FacebookLogin200Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "FacebookLogin200Controller",
+            "path": "./FacebookLogin200Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./FacebookLogin200Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "FacebookLogin200"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "FacebookLogin200Block": {
+        "file": "FacebookLogin200Block.tsx",
+        "extends": "FacebookLogin200Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "FacebookLogin200Controller",
+            "path": "./FacebookLogin200Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./FacebookLogin200Controller"
+          }
+        ]
+      }
+    }
+  }
+}

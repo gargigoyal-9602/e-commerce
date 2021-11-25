@@ -1,0 +1,65 @@
+{
+  "id": "BulkUploading200",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/BulkUploading200",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "BulkUploading200"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "BulkUploading200": {
+        "file": "BulkUploading200.tsx",
+        "extends": "BulkUploading200Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "BulkUploading200Controller",
+            "path": "./BulkUploading200Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./BulkUploading200Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "BulkUploading200"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "BulkUploading200Block": {
+        "file": "BulkUploading200Block.tsx",
+        "extends": "BulkUploading200Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "BulkUploading200Controller",
+            "path": "./BulkUploading200Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./BulkUploading200Controller"
+          }
+        ]
+      }
+    }
+  }
+}

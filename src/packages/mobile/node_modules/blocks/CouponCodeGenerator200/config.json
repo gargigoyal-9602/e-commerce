@@ -1,0 +1,65 @@
+{
+  "id": "CouponCodeGenerator200",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/CouponCodeGenerator200",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CouponCodeGenerator200"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CouponCodeGenerator200": {
+        "file": "CouponCodeGenerator200.tsx",
+        "extends": "CouponCodeGenerator200Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "CouponCodeGenerator200Controller",
+            "path": "./CouponCodeGenerator200Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CouponCodeGenerator200Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CouponCodeGenerator200"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CouponCodeGenerator200Block": {
+        "file": "CouponCodeGenerator200Block.tsx",
+        "extends": "CouponCodeGenerator200Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "CouponCodeGenerator200Controller",
+            "path": "./CouponCodeGenerator200Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CouponCodeGenerator200Controller"
+          }
+        ]
+      }
+    }
+  }
+}

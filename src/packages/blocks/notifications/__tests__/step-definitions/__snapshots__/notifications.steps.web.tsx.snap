@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`notifications User navigates to notifications 1`] = `
+<Route>
+  <Component />
+</Route>
+`;
+
+exports[`notifications User navigates to notifications 2`] = `
+<Route>
+  <Component />
+</Route>
+`;

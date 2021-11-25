@@ -1,0 +1,65 @@
+{
+  "id": "Reviews200",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/Reviews200",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Reviews200"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Reviews200": {
+        "file": "Reviews200.tsx",
+        "extends": "Reviews200Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "Reviews200Controller",
+            "path": "./Reviews200Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./Reviews200Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Reviews200"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Reviews200Block": {
+        "file": "Reviews200Block.tsx",
+        "extends": "Reviews200Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "Reviews200Controller",
+            "path": "./Reviews200Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./Reviews200Controller"
+          }
+        ]
+      }
+    }
+  }
+}

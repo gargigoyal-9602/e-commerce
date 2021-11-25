@@ -1,0 +1,12 @@
+{
+  "bds": {
+    "name": "Theme",
+    "id": "Theme",
+    "platform": [],
+    "author": "CMT",
+    "summary": null,
+    "license": "BSD",
+    "version": "1.0.0",
+    "pages": []
+  }
+}

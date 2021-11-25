@@ -1,0 +1,46 @@
+{
+  "id": "contactus",
+  "verion": "0.0.1",
+  "status": "StudioStoreEcommerce",
+  "path": "./packages/blocks/contactus",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Contactus"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "studio-store-ecommerce-core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Contactus": {
+        "file": "Contactus.tsx",
+        "extends": "ContactusController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "ContactusController",
+            "path": "./ContactusController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ContactusController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "studio-store-ecommerce-core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {}
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "CustomisedOrderStatus200",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/CustomisedOrderStatus200",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CustomisedOrderStatus200"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CustomisedOrderStatus200": {
+        "file": "CustomisedOrderStatus200.tsx",
+        "extends": "CustomisedOrderStatus200Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "CustomisedOrderStatus200Controller",
+            "path": "./CustomisedOrderStatus200Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CustomisedOrderStatus200Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CustomisedOrderStatus200"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CustomisedOrderStatus200Block": {
+        "file": "CustomisedOrderStatus200Block.tsx",
+        "extends": "CustomisedOrderStatus200Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "CustomisedOrderStatus200Controller",
+            "path": "./CustomisedOrderStatus200Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CustomisedOrderStatus200Controller"
+          }
+        ]
+      }
+    }
+  }
+}

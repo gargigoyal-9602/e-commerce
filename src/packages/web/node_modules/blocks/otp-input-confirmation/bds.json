@@ -1,0 +1,14 @@
+{
+  "bds": {
+    "name": "OTP Input Confirmation",
+    "id": "otp-input-confirmation",
+    "platform": [
+      "mobile"
+    ],
+    "author": "CMT",
+    "summary": null,
+    "license": "BSD",
+    "version": "1.0.0",
+    "pages": []
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "EmailLists2",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/EmailLists2",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "EmailLists2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "EmailLists2": {
+        "file": "EmailLists2.tsx",
+        "extends": "EmailLists2Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "EmailLists2Controller",
+            "path": "./EmailLists2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./EmailLists2Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "EmailLists2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "EmailLists2Block": {
+        "file": "EmailLists2Block.tsx",
+        "extends": "EmailLists2Controller",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "EmailLists2Controller",
+            "path": "./EmailLists2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./EmailLists2Controller"
+          }
+        ]
+      }
+    }
+  }
+}

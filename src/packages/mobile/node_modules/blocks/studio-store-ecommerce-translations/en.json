@@ -1,0 +1,21 @@
+{
+    "hello": "Hello!",
+    "Good morning": "Good morning",
+    "Currency": "USD",
+    "emptyProduct": " No Product Found",
+    "emptyProductSubText": "Try Searching with a different terms or\nbrowse other categories",
+    "emptyOrder": " No Order Found",
+    "emptyOrderSubText": "You haven't ordered any items, Browse items\nand order it.",
+    "emptyCart": " Your Cart is empty !",
+    "emptyCartSubText": "You haven't added any items in your cart\nyet !",
+    "emptyAddress": " No addresses saved !",
+    "emptyAddressSubText": "No addresses have been saved to the\nlist yet !",
+    "emptyWishlist": "Your wishlist is empty!",
+    "emptyWishlistSubText": "Explore more and shortlist some items",
+    "browseButtonText": "BROWSE PRODUCTS",
+    "addToCartBtnText": "ADD TO CART",
+    "buyNowBtnText": "BUY NOW",
+    "loginText": "LOGIN",
+    "signupText": "SIGN UP",
+    "proceedText": "PROCEED"
+}

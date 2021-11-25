@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "60789253831",
+    "project_id": "freemium-ecomm-app",
+    "storage_bucket": "freemium-ecomm-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60789253831:android:167e128d0055c46fe400e2",
+        "android_client_info": {
+          "package_name": "ai.engineer.ecommerce.Freemium87482"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "60789253831-f8jnjhnquhebq3pmhgkvlcgof38vobkh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ai.engineer.ecommerce.Freemium87482",
+            "certificate_hash": "b744343b870248fd3f3b443bab89c77359d4af00"
+          }
+        },
+        {
+          "client_id": "60789253831-lmilaun07qlejvcgcpvlvdd61mcrjdmd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ai.engineer.ecommerce.Freemium87482",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "60789253831-jm71v8bdhhptl8qn7dg7je6o8e6lno6v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbHtVocM8SepnrMhy8rYPAUlX5rEVMM0w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "60789253831-jm71v8bdhhptl8qn7dg7je6o8e6lno6v.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "60789253831-33uqclha1icjk2ausk09tdmkatis9fgd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "ai.engineer.ecommerce.Freemium87482"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "ordersummary",
+  "verion": "0.0.1",
+  "status": "StudioStoreEcommerce",
+  "path": "./packages/blocks/ordersummary",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+        "Ordersummary"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "studio-store-ecommerce-core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Ordersummary": {
+        "file": "Ordersummary.tsx",
+        "extends": "OrdersummaryController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "OrdersummaryController",
+            "path": "./OrdersummaryController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./OrdersummaryController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "studio-store-ecommerce-core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {}
+  }
+}

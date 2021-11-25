@@ -1,0 +1,20 @@
+{
+  "bds": {
+    "name": "Login",
+    "id": "Login",
+    "platform": [
+      "mobile"
+    ],
+    "author": "CMT",
+    "summary": null,
+    "license": "BSD",
+    "version": "1.0.0",
+    "pages": [
+      {
+        "Login": {
+          "hotspots": []
+        }
+      }
+    ]
+  }
+}

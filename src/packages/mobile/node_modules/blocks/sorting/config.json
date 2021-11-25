@@ -1,0 +1,65 @@
+{
+  "id": "sorting",
+  "verion": "0.0.1",
+  "status": "StudioStoreEcommerce",
+  "path": "./packages/blocks/sorting",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Sorting"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "studio-store-ecommerce-core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Sorting": {
+        "file": "Sorting.tsx",
+        "extends": "SortingController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "SortingController",
+            "path": "./SortingController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./SortingController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Sorting"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "studio-store-ecommerce-core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "SortingBlock": {
+        "file": "SortingBlock.tsx",
+        "extends": "SortingController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "SortingController",
+            "path": "./SortingController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./SortingController"
+          }
+        ]
+      }
+    }
+  }
+}

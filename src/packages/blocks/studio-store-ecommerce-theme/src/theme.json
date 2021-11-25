@@ -1,0 +1,64 @@
+{
+  "attributes": {
+    "heading": "Building Blocks",
+    "sub_heading": "freemium",
+    "phone_number": "07415267288",
+    "fb_link": "",
+    "instagram_link": "",
+    "twitter_link": "",
+    "youtube_link": "",
+    "primary_color": "#9801b6",
+    "background_color": "#ffffff",
+    "background_grey": "#3e454f",
+    "border_color": "#a9a9a9",
+    "common_button_color": "#320bf4",
+    "secondary_color": "#e65e52",
+    "secondary_button_color": "#e65e52",
+    "extra_button_color": "#080808",
+    "header_color": "#ffffff",
+    "header_text_color": "#ffffff",
+    "header_subtext_color": "#ffffff",
+    "white": "#fff",
+    "black": "#000",
+    "grey": "#f2f2f2",
+    "transparent": "rgba(34,34,34, 0.8)",
+    "country": "uk",
+    "currency_type": "£",
+    "isFacebookLogin": true,
+    "isGoogleLogin": true,
+    "isAppleLogin": true,
+    "razorpay": {
+      "api_key": "rzp_test_QDC256wNFutX9J",
+      "secret_key": "nr6Sf1QRtDABbUt8P89qJzI7"
+    },
+    "stripe": {
+      "stripe_pub_key": "pk_test_51Ib143SI68JYG5nMT4vJt6s74N8bOoTUEFetf5dUYzxbDBJaKBr5SjBt2lJ06mwsweQtckNu9IWkOXA7UZwjyyF800LTTVHQld",
+      "stripe_secret_key": "sk_test_51Ib143SI68JYG5nM0RZFwWC2YeNl5qSNCqYDSDIMc2Y4iThHNyDJ8jOwlrfvcLno17gJBMM7OCAY8wo88odF82PJ007JsAhCv1"
+    },
+    "logo": "https://test-67852-ruby.b67852.dev.centralindia.az.svc.builder.ai//rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--191a7b418690f735e61a0466ff3b8480b739aad9/Food%20IMages%20(15).jpg",
+    "firebase": {
+      "apiKey": "AAAADidSZsc:APA91bFLno-Yuk31oNVL38NIvuzGgcLTY4cBgKG2GsHqDZXyc5vFrV0FrNFolMJOhBOGDRkMYwVIOoQb1rcJmLQ48XXwJXBRg6i1Dm4M8uF3mP7o-b57uD3OZ7Vw1iR4Hpi4ObJwsSxs",
+      "authDomain": "",
+      "databaseURL": "",
+      "projectId": "",
+      "storageBucket": "",
+      "messagingSenderId": "",
+      "appId": "",
+      "measurementId": ""
+    },
+    "ShippingKeys": {
+      "logistics": {
+        "oauth_site_url": null,
+        "base_url": null,
+        "client_id": null,
+        "client_secret": null,
+        "logistic_api_key": null
+      },
+      "shiprocket": {
+        "ship_rocket_base_url": null,
+        "ship_rocket_user_email": "b.sumit2806@gmail.com",
+        "ship_rocket_user_password": "Sumit@123456"
+      }
+    }
+  }
+}

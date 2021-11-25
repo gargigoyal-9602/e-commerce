@@ -1,0 +1,49 @@
+{
+  "id": "shoppingcart",
+  "verion": "0.0.1",
+  "status": "StudioStoreEcommerce",
+  "path": "./packages/blocks/shoppingcart",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Shoppingcart",
+      "EditAddress",
+      "SavedAddress",
+      "Checkout"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "studio-store-ecommerce-core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Shoppingcart": {
+        "file": "Shoppingcart.tsx",
+        "extends": "ShoppingcartController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "ShoppingcartController",
+            "path": "./ShoppingcartController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ShoppingcartController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "studio-store-ecommerce-core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {}
+  }
+}

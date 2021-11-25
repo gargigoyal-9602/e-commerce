@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`orderdetailview User navigates to orderdetailview 1`] = `
+<Route>
+  <Component />
+</Route>
+`;

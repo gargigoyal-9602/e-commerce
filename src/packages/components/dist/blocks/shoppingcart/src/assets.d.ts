@@ -1,0 +1,13 @@
+export declare const imgPasswordVisible: any;
+export declare const imgPasswordInVisible: any;
+export declare const emptyCart: any;
+export declare const fbIcon: any;
+export declare const GoogleIcon: any;
+export declare const backIcon: any;
+export declare const notificationIcon: any;
+export declare const checkboxSelected: any;
+export declare const checkboxUnSelected: any;
+export declare const blankAddress: any;
+export declare const tickAddress: any;
+export declare const cartEmpty: any;
+export declare const couponTick: any;
